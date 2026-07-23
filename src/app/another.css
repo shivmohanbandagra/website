@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Tailwind v4 Theme Configuration */
+@theme {
+  /* Typography Mapping */
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-cormorant);
+  --font-subheading: var(--font-cinzel);
+  --font-hindi: var(--font-noto-hindi);
+
+  /* Brand Palette (Generates utility classes like text-gold, bg-maroon) */
+  --color-gold: #ba00c0;
+  --color-maroon: #5C0B17;
+  --color-crimson: #8B0000;
+  --color-ivory: #FFF9F2;
+  --color-charcoal: #121212;
+  --color-success: #16A34A;
+
+  /* Semantic Theme Variables */
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-card: var(--card-bg);
+  --color-card-border: var(--card-border);
+}
+
+/* Light / Dark Mode Color Definitions */
+@layer base {
+  :root {
+    --bg: #FFF9F2; /* Ivory canvas */
+    --fg: #121212; /* Charcoal text */
+    
+    /* Used for glassmorphism panels in light mode */
+    --card-bg: rgba(255, 249, 242, 0.7); 
+    --card-border: rgba(212, 175, 55, 0.2); /* Subtle gold border */
+  }
+
+  .dark {
+    --bg: #121212; /* Charcoal canvas */
+    --fg: #FFF9F2; /* Ivory text */
+    
+    /* Used for glassmorphism panels in dark mode */
+    --card-bg: rgba(18, 18, 18, 0.7);
+    --card-border: rgba(212, 175, 55, 0.15);
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 10px;
+}

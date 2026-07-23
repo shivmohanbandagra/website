@@ -1,0 +1,81 @@
+
+
+
+@import "tailwindcss";
+
+/* Tailwind v4 Theme Configuration */
+@theme {
+  /* Typography Mapping */
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-cormorant);
+  --font-subheading: var(--font-cinzel);
+  --font-hindi: var(--font-noto-hindi);
+
+  /* Brand Palette (Pink Theme) */
+  --color-gold: #E91E63;      /* Primary Pink */
+  --color-maroon: #BE185D;    /* Dark Pink */
+  --color-crimson: #F472B6;   /* Light Pink */
+
+  --color-ivory: #FFF8FC;     /* Soft White with Pink Tint */
+  --color-charcoal: #111111;
+  --color-success: #16A34A;
+
+  /* Semantic Theme Variables */
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-card: var(--card-bg);
+  --color-card-border: var(--card-border);
+}
+
+/* Light / Dark Mode Color Definitions */
+@layer base {
+  :root {
+    --bg: #FFF8FC;
+    --fg: #18181B;
+
+    /* Glassmorphism panels */
+    --card-bg: rgba(255, 255, 255, 0.72);
+    --card-border: rgba(233, 30, 99, 0.12);
+  }
+
+  .dark {
+    --bg: #111111;
+    --fg: #FFF8FC;
+
+    /* Glassmorphism panels */
+    --card-bg: rgba(17, 17, 17, 0.72);
+    --card-border: rgba(244, 114, 182, 0.18);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-maroon);
+}
+
+
+@layer utilities {
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+  .animate-marquee {
+    animation: marquee 40s linear infinite;
+  }
+  .animate-marquee:hover {
+    animation-play-state: paused;
+  }
+}
