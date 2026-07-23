@@ -80,7 +80,7 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 // ... (Font initializations remain exactly the same) ...
 
 export const metadata = {
-  metadataBase: new URL("https://www.shivmohanband.com"),
+  metadataBase: new URL("https://www.shivmohanbandagra.com"),
   title: {
     default:"Shiv Mohan Band Agra | Wedding Band, DJ, Ghori & Baggi",
     template: "%s | Shiv Mohan Band",
@@ -113,7 +113,7 @@ export const metadata = {
   openGraph: {
     title:"Wedding Band in Agra | Shiv Mohan Band & Events",
     description: "Wedding Band, DJ, Ghori, Baggi, Nashik Dhol & Vintage Cars in Agra. Trusted by generations of families across India for unforgettable, luxury wedding experiences.",
-    url: "https://www.shivmohanband.com",
+    url: "https://www.shivmohanbandagra.com",
     siteName: "Shiv Mohan Band & Events",
     images: [
       {
