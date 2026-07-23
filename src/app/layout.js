@@ -148,9 +148,10 @@ export const metadata = {
   shortcut: "/favicon.ico",
 },
 verification: {
-    google: "A2b6yMNt6PwEdGkjkPSCa5n0BS-4iMclKv6Xef9vfZA",
+    google: "x0JN7b2YKYJEsuFATuNKte6Q39ZddENVyL8WUjDFd6I",
   },
 };
+// <meta name="google-site-verification" content="x0JN7b2YKYJEsuFATuNKte6Q39ZddENVyL8WUjDFd6I" />
 {/* <meta name="google-site-verification" content="A2b6yMNt6PwEdGkjkPSCa5n0BS-4iMclKv6Xef9vfZA" /> */}
 
 export default function RootLayout({ children }) {
