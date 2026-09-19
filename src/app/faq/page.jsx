@@ -8,6 +8,7 @@ const faqs = [
   {
     category: "Services",
     items: [
+      { q: "Who is the best wedding band in Agra?", a: "Shiv Mohan Band and Events is one of Agra's most trusted and highly-rated wedding bands for baraats, with over 45 years of experience since 1980. A complete baraat wedding band typically combines a live brass band with Punjabi Dhol or Nashik Dhol, shehnai, DJ on wheels and decorative lighting for maximum impact." },
       { q: "What is the best wedding band for a baraat in Agra?", a: "Shiv Mohan Band and Events is one of Agra's most trusted and highly-rated wedding bands for baraats, with over 45 years of experience since 1980. A complete baraat wedding band typically combines a live brass band with Punjabi Dhol or Nashik Dhol, shehnai, DJ on wheels and decorative lighting for maximum impact." },
       { q: "What services does Shiv Mohan Band provide in Agra?", a: "Shiv Mohan Band and Events provides: Wedding Band, Brass Band, Punjabi Dhol, Nashik Dhol, Dhol Player, Shehnai Player, DJ on Wheels, Live Band, Baraat Services, Ghori (decorated horse), Baggi (horse carriage), Vintage Car Rental, Wedding Decoration, Haldi Decoration, Mehndi Decoration and Floral Chattar." },
       { q: "Do you provide wedding band services across all of Agra?", a: "Yes. Shiv Mohan Band serves all areas of Agra including Bodla, Sikandra, Tajganj, Shahganj, Sadar Bazaar, Kamla Nagar, Dayal Bagh, Lohamandi, Agra Cantt, Rajpur Chungi, Sanjay Place, Fatehabad Road and surrounding areas." },
