@@ -1,20 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
 
-    <url>
-        <loc>https://shivmohanbandagra.com/</loc>
-        <lastmod>2026-07-23</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-    <url>
-        <loc>https://shivmohanbandagra.com/about-us</loc>
-        <lastmod>2026-07-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+  <!-- About -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.shivmohanbandagra.com/about-us/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Baraat Services -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/baraat-services-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Wedding Band -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/wedding-band-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.shivmohanbandagra.com/wedding-band-agra-guide/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Brass Band -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/brass-band-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Punjabi Dhol -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/punjabi-dhol-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Nashik Dhol -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/nashik-dhol-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Dhol Player -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/dhol-player-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- DJ -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/dj-on-wheels-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Live Band -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/live-band-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Ghori & Baggi -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/ghori-baggi-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Vintage Car -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/vintage-car-rental-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Shehnai -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/shehnai-player-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Wedding Decoration -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/wedding-decoration-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/faq/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
 </urlset>

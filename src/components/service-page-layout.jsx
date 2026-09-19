@@ -81,7 +81,7 @@ export default function ServicePageLayout({
   return (
     <div className="bg-background text-foreground min-h-screen">
       {/* Breadcrumbs */}
-      <nav className="bg-charcoal/50 border-b border-gold/10 px-10 py-3 mt-15" aria-label="Breadcrumb">
+      <nav className="bg-charcoal/50 px-10 py-3 mt-20 relative " aria-label="Breadcrumb">
         <div className="max-w-6xl">
           <ol className="flex flex-wrap items-center gap-2 font-sans text-sm text-ivory/50">
             <li>

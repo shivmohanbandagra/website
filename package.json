@@ -32,5 +32,9 @@
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^6.3.289",
     "tailwindcss": "^4"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true,
+    "unrs-resolver@1.12.2": true
   }
 }

@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 
+Disallow: /api/
+Disallow: /_next/
+
 Sitemap: https://www.shivmohanbandagra.com/sitemap.xml
-Host: https://www.shivmohanbandagra.com

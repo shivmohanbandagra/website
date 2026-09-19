@@ -52,14 +52,14 @@ export default function BlogIndexPage() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       {/* Breadcrumb */}
-      <nav className="bg-charcoal/50 border-b border-gold/10 px-6 py-3">
+      {/* <nav className="bg-charcoal/50 border-b border-gold/10 px-6 py-3">
         <div className="max-w-5xl mx-auto">
           <ol className="flex items-center gap-2 font-sans text-sm text-ivory/50">
             <li><Link href="/" className="hover:text-gold transition-colors">Home</Link></li>
             <li className="flex items-center gap-2"><span>/</span><span className="text-gold">Blog</span></li>
           </ol>
         </div>
-      </nav>
+      </nav> */}
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">

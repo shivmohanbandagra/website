@@ -113,7 +113,7 @@
 //           className="max-w-4xl mx-auto flex flex-col items-center"
 //         >
 //           {/* Glassmorphism Badge */}
-//           <motion.div 
+//           <motion.div
 //             variants={itemVariants}
 //             className="mb-8 px-6 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md"
 //           >
@@ -122,7 +122,7 @@
 //             </span>
 //           </motion.div>
 
-//           <motion.h1 
+//           <motion.h1
 //             variants={itemVariants}
 //             className="font-heading text-5xl md:text-7xl lg:text-8xl text-ivory leading-tight mb-6"
 //           >
@@ -130,7 +130,7 @@
 //             <span className="text-gold italic">Memorable Since 1980</span>
 //           </motion.h1>
 
-//           <motion.p 
+//           <motion.p
 //             variants={itemVariants}
 //             className="font-sans text-lg md:text-xl text-ivory/80 max-w-2xl mb-12 font-light"
 //           >
@@ -139,23 +139,23 @@
 
 //           {/* CTA Group */}
 // {/* CTA Group */}
-// <motion.div 
+// <motion.div
 //   variants={itemVariants}
 //   className="flex flex-col sm:flex-row items-center gap-6"
 // >
-//   <a 
+//   <a
 //     href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20am%20inquiring%20about%20a%20booking."
-//     target="_blank" 
+//     target="_blank"
 //     rel="noopener noreferrer"
 //     className="group relative px-8 py-4 bg-gold text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-gold flex items-center gap-3 overflow-hidden"
 //   >
 //     <span className="relative z-10 font-semibold">Book Your Date</span>
 //     <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
 //   </a>
-  
-//   <a 
+
+//   <a
 //     href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20have%20a%20quick%20question."
-//     target="_blank" 
+//     target="_blank"
 //     rel="noopener noreferrer"
 //     className="group px-8 py-4 bg-white/5 backdrop-blur-md border border-ivory/20 text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-success/20 hover:border-success/50 hover:text-success flex items-center gap-3"
 //   >
@@ -315,7 +315,7 @@ function LazyVideo({ src }) {
           el.pause();
         }
       },
-      { threshold: 0.1, rootMargin: "300px 0px" }
+      { threshold: 0.1, rootMargin: "300px 0px" },
     );
 
     observer.observe(el);
@@ -471,14 +471,17 @@ export default function Hero() {
               className="font-heading text-5xl md:text-7xl lg:text-8xl text-ivory leading-tight mb-4"
             >
               Wedding Band in Agra <br className="hidden md:block" />
-              <span className="text-gold italic">for Royal Baraat & Celebrations</span>
+              <span className="text-gold italic">
+                for Royal Baraat & Celebrations
+              </span>
             </motion.h1>
 
             <motion.p
               variants={itemVariants}
               className="font-sans text-lg md:text-xl text-ivory/80 max-w-2xl mb-12 font-light"
             >
-              Trusted by generations of families across Agra for unforgettable royal baraat experiences since 1980.
+              Trusted by generations of families across Agra for unforgettable
+              royal baraat experiences since 1980.
             </motion.p>
 
             <motion.div
@@ -492,7 +495,9 @@ export default function Hero() {
                 id="hero-cta-check-baraat-date"
                 className="group relative px-8 py-4 bg-gold text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-gold flex items-center gap-3 overflow-hidden"
               >
-                <span className="relative z-10 font-semibold">Check Your Baraat Date</span>
+                <span className="relative z-10 font-semibold">
+                  Check Your Baraat Date
+                </span>
                 <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
               </a>
 
@@ -513,19 +518,22 @@ export default function Hero() {
       {/* =====================================================================
           TABLET / DESKTOP — copy left, two infinite video strips right
       ===================================================================== */}
-      <div className="hidden md:flex relative w-full" style={{ minHeight: 'calc(100vh)' }}>
+      <div
+        className="hidden md:flex relative w-full"
+        style={{ minHeight: "calc(100vh)" }}
+      >
         <div className="absolute inset-0 z-0 bg-gradient-to-br from-charcoal via-charcoal to-maroon/30" />
         <FloatingParticles />
 
         <div className="relative z-20 w-full flex items-center pt-24 pb-12">
-          <div className="container mx-auto px-6 lg:px-12 grid grid-cols-2 gap-8 lg:gap-16 items-center">
-            {/* LEFT — Typography + CTAs */}
+          <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 gap-8 lg:gap-16 items-center">
             <motion.div
               variants={containerVariants}
               initial="hidden"
               animate="visible"
-              className="flex flex-col items-start text-left"
+              className="flex flex-col items-center text-center"
             >
+              {/* Badge */}
               <motion.div
                 variants={itemVariants}
                 className="mb-6 px-6 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md"
@@ -535,20 +543,29 @@ export default function Hero() {
                 </span>
               </motion.div>
 
+              {/* Heading */}
               <motion.h1
                 variants={itemVariants}
                 className="font-heading text-5xl lg:text-6xl xl:text-7xl text-ivory leading-tight mb-4"
               >
                 Wedding Band in Agra <br />
-                <span className="text-gold italic">for Royal Baraat &amp; Celebrations</span>
+                <span className="text-gold italic">
+                  for Royal Baraat &amp; Celebrations
+                </span>
               </motion.h1>
 
+              {/* Description */}
               <motion.p
                 variants={itemVariants}
-                className="font-sans text-base lg:text-lg text-ivory/80 max-w-lg mb-3 font-light"
+                className="font-sans text-base lg:text-lg text-ivory/80 max-w-3xl mb-3 font-light"
               >
-                Shiv Mohan Band &amp; Events is a wedding band and baraat entertainment service based in Agra, providing wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ services, shehnai, vintage cars and royal baraat arrangements since 1980.
+                Shiv Mohan Band &amp; Events is a wedding band and baraat
+                entertainment service based in Agra, providing wedding bands,
+                brass bands, Punjabi Dhol, Nashik Dhol, DJ services, shehnai,
+                vintage cars and royal baraat arrangements since 1980.
               </motion.p>
+
+              {/* Trust */}
               <motion.p
                 variants={itemVariants}
                 className="font-sans text-sm text-gold/80 max-w-lg mb-8 font-light tracking-wide"
@@ -556,15 +573,20 @@ export default function Hero() {
                 Trusted by 650+ families across Agra &bull; 4.6★ Google Rating
               </motion.p>
 
-              <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start gap-4 mb-10">
+              {/* CTA Buttons */}
+              <motion.div
+                variants={itemVariants}
+                className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10"
+              >
                 <a
                   href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20baraat."
                   target="_blank"
                   rel="noopener noreferrer"
                   id="desktop-hero-cta-check-baraat-date"
-                  className="group relative px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-charcoal flex items-center gap-3 overflow-hidden font-semibold"
+                  className="group relative px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-charcoal flex items-center justify-center gap-3 overflow-hidden font-semibold"
                 >
                   <span className="relative z-10">Check Your Baraat Date</span>
+
                   <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
                 </a>
 
@@ -572,7 +594,7 @@ export default function Hero() {
                   href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20have%20a%20quick%20question."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group px-8 py-4 bg-white/5 backdrop-blur-md border border-gold/30 text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-gold/10 hover:border-gold/60 flex items-center gap-3"
+                  className="group px-8 py-4 bg-white/5 backdrop-blur-md border border-gold/30 text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-gold/10 hover:border-gold/60 flex items-center justify-center gap-3"
                 >
                   <MessageCircle className="w-4 h-4 text-gold" />
                   <span>WhatsApp Us</span>
@@ -580,30 +602,52 @@ export default function Hero() {
               </motion.div>
 
               {/* Service Image Snapshot Row */}
-              <motion.div variants={itemVariants} className="flex gap-3 w-full max-w-lg">
+              <motion.div
+                variants={itemVariants}
+                className="flex justify-center gap-3 w-full max-w-2xl"
+              >
                 {[
-                  { src: "/images/services/band.jpeg", alt: "Wedding band performing at baraat in Agra — Shiv Mohan Band", label: "Wedding Band" },
-                  { src: "/images/services/nashikdhol1.webp", alt: "Nashik Dhol group performance at wedding baraat Agra", label: "Nashik Dhol" },
-                  { src: "/images/services/car.jpeg", alt: "Vintage car decorated with flowers for wedding baraat entry in Agra", label: "Vintage Car" },
+                  {
+                    src: "/images/services/band.jpeg",
+                    alt: "Wedding band performing at baraat in Agra — Shiv Mohan Band",
+                    label: "Wedding Band",
+                  },
+                  {
+                    src: "/images/services/nashikdhol1.webp",
+                    alt: "Nashik Dhol group performance at wedding baraat Agra",
+                    label: "Nashik Dhol",
+                  },
+                  {
+                    src: "/images/services/car.jpeg",
+                    alt: "Vintage car decorated with flowers for wedding baraat entry in Agra",
+                    label: "Vintage Car",
+                  },
                 ].map((img) => (
-                  <div key={img.label} className="relative flex-1 aspect-[4/3] rounded-sm overflow-hidden group">
+                  <div
+                    key={img.label}
+                    className="relative flex-1 aspect-[4/3] rounded-sm overflow-hidden group"
+                  >
                     <Image
                       src={img.src}
                       alt={img.alt}
                       fill
-                      sizes="(max-width: 1024px) 33vw, 180px"
+                      sizes="(max-width: 1024px) 33vw, 220px"
                       className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                     />
+
                     <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 to-transparent" />
-                    <span className="absolute bottom-2 left-2 font-subheading text-[9px] text-gold tracking-widest uppercase">{img.label}</span>
+
+                    <span className="absolute bottom-2 left-0 right-0 text-center font-subheading text-[9px] text-gold tracking-widest uppercase">
+                      {img.label}
+                    </span>
+
                     <div className="absolute inset-0 border border-gold/0 group-hover:border-gold/30 transition-colors duration-300 rounded-sm" />
                   </div>
                 ))}
               </motion.div>
             </motion.div>
-
             {/* RIGHT — Two infinite vertical video strips */}
-            <div
+            {/* <div
               className="relative h-[75vh] max-h-[800px] flex gap-4 lg:gap-6"
               onMouseEnter={() => { isSlowRef.current = true; }}
               onMouseLeave={() => { isSlowRef.current = false; }}
@@ -614,10 +658,93 @@ export default function Hero() {
               <div className="relative flex-1 h-full overflow-hidden rounded-lg [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
                 <VideoStrip videos={stripRight} direction="down" isSlowRef={isSlowRef} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </section>
   );
 }
+
+// {/* LEFT — Typography + CTAs */}
+// <motion.div
+//   variants={containerVariants}
+//   initial="hidden"
+//   animate="visible"
+//   className="flex flex-col items-start text-left"
+// >
+//   <motion.div
+//     variants={itemVariants}
+//     className="mb-6 px-6 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md"
+//   >
+//     <span className="font-subheading text-ivory tracking-[0.2em] text-sm uppercase">
+//       Agra&apos;s Most Trusted Wedding Band
+//     </span>
+//   </motion.div>
+
+//   <motion.h1
+//     variants={itemVariants}
+//     className="font-heading text-5xl lg:text-6xl xl:text-7xl text-ivory leading-tight mb-4"
+//   >
+//     Wedding Band in Agra <br />
+//     <span className="text-gold italic">for Royal Baraat &amp; Celebrations</span>
+//   </motion.h1>
+
+//   <motion.p
+//     variants={itemVariants}
+//     className="font-sans text-base lg:text-lg text-ivory/80 max-w-lg mb-3 font-light"
+//   >
+//     Shiv Mohan Band &amp; Events is a wedding band and baraat entertainment service based in Agra, providing wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ services, shehnai, vintage cars and royal baraat arrangements since 1980.
+//   </motion.p>
+//   <motion.p
+//     variants={itemVariants}
+//     className="font-sans text-sm text-gold/80 max-w-lg mb-8 font-light tracking-wide"
+//   >
+//     Trusted by 650+ families across Agra &bull; 4.6★ Google Rating
+//   </motion.p>
+
+//   <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start gap-4 mb-10">
+//     <a
+//       href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20baraat."
+//       target="_blank"
+//       rel="noopener noreferrer"
+//       id="desktop-hero-cta-check-baraat-date"
+//       className="group relative px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-charcoal flex items-center gap-3 overflow-hidden font-semibold"
+//     >
+//       <span className="relative z-10">Check Your Baraat Date</span>
+//       <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
+//     </a>
+
+//     <a
+//       href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20have%20a%20quick%20question."
+//       target="_blank"
+//       rel="noopener noreferrer"
+//       className="group px-8 py-4 bg-white/5 backdrop-blur-md border border-gold/30 text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-gold/10 hover:border-gold/60 flex items-center gap-3"
+//     >
+//       <MessageCircle className="w-4 h-4 text-gold" />
+//       <span>WhatsApp Us</span>
+//     </a>
+//   </motion.div>
+
+//   {/* Service Image Snapshot Row */}
+//   <motion.div variants={itemVariants} className="flex gap-3 w-full max-w-lg">
+//     {[
+//       { src: "/images/services/band.jpeg", alt: "Wedding band performing at baraat in Agra — Shiv Mohan Band", label: "Wedding Band" },
+//       { src: "/images/services/nashikdhol1.webp", alt: "Nashik Dhol group performance at wedding baraat Agra", label: "Nashik Dhol" },
+//       { src: "/images/services/car.jpeg", alt: "Vintage car decorated with flowers for wedding baraat entry in Agra", label: "Vintage Car" },
+//     ].map((img) => (
+//       <div key={img.label} className="relative flex-1 aspect-[4/3] rounded-sm overflow-hidden group">
+//         <Image
+//           src={img.src}
+//           alt={img.alt}
+//           fill
+//           sizes="(max-width: 1024px) 33vw, 180px"
+//           className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+//         />
+//         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 to-transparent" />
+//         <span className="absolute bottom-2 left-2 font-subheading text-[9px] text-gold tracking-widest uppercase">{img.label}</span>
+//         <div className="absolute inset-0 border border-gold/0 group-hover:border-gold/30 transition-colors duration-300 rounded-sm" />
+//       </div>
+//     ))}
+//   </motion.div>
+// </motion.div>

@@ -277,7 +277,7 @@ export default function ServicesSection() {
             </motion.h2>
           </div>
 
-          <Link href="/baraat-services-agra/">
+          {/* <Link href="/baraat-services-agra/">
             <motion.span
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -287,11 +287,11 @@ export default function ServicesSection() {
               View All Services
               <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </motion.span>
-          </Link>
+          </Link> */}
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {services.map((service, index) => {
             // Calculate delay based on column (0, 1, or 2) to stagger the row smoothly
             const delay = (index % 3) * 0.15;
