@@ -64,7 +64,7 @@ const breadcrumbSchema = {
 };
 
 function FAQItem({ question, answer }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
     <div className="border border-gold/20 rounded-sm overflow-hidden">
       <button onClick={() => setOpen(!open)} className="w-full flex justify-between items-start px-6 py-5 text-left bg-charcoal/30 hover:bg-charcoal/50 transition-colors" aria-expanded={open}>
