@@ -422,7 +422,7 @@ export default function Hero() {
       {/* =====================================================================
           MOBILE — unchanged from the original design
       ===================================================================== */}
-      <div className="md:hidden relative w-full h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
+      <div className="md:hidden relative w-full min-h-screen flex items-center justify-center overflow-hidden pt-20">
         <motion.div
           className="absolute inset-0 z-0"
           initial={{ scale: 1 }}
@@ -433,12 +433,13 @@ export default function Hero() {
             repeatType: "reverse",
             ease: "linear",
           }}
+          style={{ position: "absolute", inset: 0 }}
         >
           <Image
             src="/images/hero.jpg"
-            alt="Royal Indian Baraat Celebration"
+            alt="Shiv Mohan Band performing live at a royal wedding baraat procession in Agra, Uttar Pradesh"
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="100vw"
             priority
             className="object-cover object-center opacity-40"
           />
@@ -467,17 +468,17 @@ export default function Hero() {
 
             <motion.h1
               variants={itemVariants}
-              className="font-heading text-5xl md:text-7xl lg:text-8xl text-ivory leading-tight mb-6"
+              className="font-heading text-5xl md:text-7xl lg:text-8xl text-ivory leading-tight mb-4"
             >
-              Making Royal Baraats <br className="hidden md:block" />
-              <span className="text-gold italic">Memorable Since 1980</span>
+              Wedding Band in Agra <br className="hidden md:block" />
+              <span className="text-gold italic">for Royal Baraat & Celebrations</span>
             </motion.h1>
 
             <motion.p
               variants={itemVariants}
               className="font-sans text-lg md:text-xl text-ivory/80 max-w-2xl mb-12 font-light"
             >
-              Trusted by generations of families across India for unforgettable, luxury wedding experiences.
+              Trusted by generations of families across Agra for unforgettable royal baraat experiences since 1980.
             </motion.p>
 
             <motion.div
@@ -485,12 +486,13 @@ export default function Hero() {
               className="flex flex-col sm:flex-row items-center gap-6"
             >
               <a
-                href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20am%20inquiring%20about%20a%20booking."
+                href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20baraat."
                 target="_blank"
                 rel="noopener noreferrer"
+                id="hero-cta-check-baraat-date"
                 className="group relative px-8 py-4 bg-gold text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-gold flex items-center gap-3 overflow-hidden"
               >
-                <span className="relative z-10 font-semibold">Book Your Date</span>
+                <span className="relative z-10 font-semibold">Check Your Baraat Date</span>
                 <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
               </a>
 
@@ -511,11 +513,11 @@ export default function Hero() {
       {/* =====================================================================
           TABLET / DESKTOP — copy left, two infinite video strips right
       ===================================================================== */}
-      <div className="hidden md:flex relative w-full min-h-screen">
+      <div className="hidden md:flex relative w-full" style={{ minHeight: 'calc(100vh)' }}>
         <div className="absolute inset-0 z-0 bg-gradient-to-br from-charcoal via-charcoal to-maroon/30" />
         <FloatingParticles />
 
-        <div className="relative z-20 w-full flex items-center">
+        <div className="relative z-20 w-full flex items-center pt-24 pb-12">
           <div className="container mx-auto px-6 lg:px-12 grid grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* LEFT — Typography + CTAs */}
             <motion.div
@@ -526,36 +528,43 @@ export default function Hero() {
             >
               <motion.div
                 variants={itemVariants}
-                className="mb-8 px-6 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md"
+                className="mb-6 px-6 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md"
               >
                 <span className="font-subheading text-ivory tracking-[0.2em] text-sm uppercase">
-                  Agra&apos;s Premium Wedding Choice
+                  Agra&apos;s Most Trusted Wedding Band
                 </span>
               </motion.div>
 
               <motion.h1
                 variants={itemVariants}
-                className="font-heading text-5xl lg:text-6xl xl:text-7xl text-ivory leading-tight mb-6"
+                className="font-heading text-5xl lg:text-6xl xl:text-7xl text-ivory leading-tight mb-4"
               >
-                Making Royal Baraats <br />
-                <span className="text-gold italic">Memorable Since 1980</span>
+                Wedding Band in Agra <br />
+                <span className="text-gold italic">for Royal Baraat &amp; Celebrations</span>
               </motion.h1>
 
               <motion.p
                 variants={itemVariants}
-                className="font-sans text-lg lg:text-xl text-ivory/80 max-w-lg mb-12 font-light"
+                className="font-sans text-base lg:text-lg text-ivory/80 max-w-lg mb-3 font-light"
               >
-                Trusted by generations of families across India for unforgettable, luxury wedding experiences.
+                Shiv Mohan Band &amp; Events is a wedding band and baraat entertainment service based in Agra, providing wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ services, shehnai, vintage cars and royal baraat arrangements since 1980.
+              </motion.p>
+              <motion.p
+                variants={itemVariants}
+                className="font-sans text-sm text-gold/80 max-w-lg mb-8 font-light tracking-wide"
+              >
+                Trusted by 650+ families across Agra &bull; 4.6★ Google Rating
               </motion.p>
 
-              <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start gap-6">
+              <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start gap-4 mb-10">
                 <a
-                  href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20am%20inquiring%20about%20a%20booking."
+                  href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20baraat."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative px-8 py-4 bg-gold text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-gold flex items-center gap-3 overflow-hidden"
+                  id="desktop-hero-cta-check-baraat-date"
+                  className="group relative px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-charcoal flex items-center gap-3 overflow-hidden font-semibold"
                 >
-                  <span className="relative z-10 font-semibold">Book Your Date</span>
+                  <span className="relative z-10">Check Your Baraat Date</span>
                   <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
                 </a>
 
@@ -563,23 +572,41 @@ export default function Hero() {
                   href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20have%20a%20quick%20question."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group px-8 py-4 bg-white/5 backdrop-blur-md border border-ivory/20 text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-success/20 hover:border-success/50 hover:text-success flex items-center gap-3"
+                  className="group px-8 py-4 bg-white/5 backdrop-blur-md border border-gold/30 text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-gold/10 hover:border-gold/60 flex items-center gap-3"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <MessageCircle className="w-4 h-4 text-gold" />
                   <span>WhatsApp Us</span>
                 </a>
+              </motion.div>
+
+              {/* Service Image Snapshot Row */}
+              <motion.div variants={itemVariants} className="flex gap-3 w-full max-w-lg">
+                {[
+                  { src: "/images/services/band.jpeg", alt: "Wedding band performing at baraat in Agra — Shiv Mohan Band", label: "Wedding Band" },
+                  { src: "/images/services/nashikdhol1.webp", alt: "Nashik Dhol group performance at wedding baraat Agra", label: "Nashik Dhol" },
+                  { src: "/images/services/car.jpeg", alt: "Vintage car decorated with flowers for wedding baraat entry in Agra", label: "Vintage Car" },
+                ].map((img) => (
+                  <div key={img.label} className="relative flex-1 aspect-[4/3] rounded-sm overflow-hidden group">
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      fill
+                      sizes="(max-width: 1024px) 33vw, 180px"
+                      className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 to-transparent" />
+                    <span className="absolute bottom-2 left-2 font-subheading text-[9px] text-gold tracking-widest uppercase">{img.label}</span>
+                    <div className="absolute inset-0 border border-gold/0 group-hover:border-gold/30 transition-colors duration-300 rounded-sm" />
+                  </div>
+                ))}
               </motion.div>
             </motion.div>
 
             {/* RIGHT — Two infinite vertical video strips */}
             <div
-              className="relative h-[80vh] max-h-[820px] flex gap-4 lg:gap-6"
-              onMouseEnter={() => {
-                isSlowRef.current = true;
-              }}
-              onMouseLeave={() => {
-                isSlowRef.current = false;
-              }}
+              className="relative h-[75vh] max-h-[800px] flex gap-4 lg:gap-6"
+              onMouseEnter={() => { isSlowRef.current = true; }}
+              onMouseLeave={() => { isSlowRef.current = false; }}
             >
               <div className="relative flex-1 h-full overflow-hidden rounded-lg [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
                 <VideoStrip videos={stripLeft} direction="up" isSlowRef={isSlowRef} />

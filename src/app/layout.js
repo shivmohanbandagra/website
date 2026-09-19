@@ -8,7 +8,7 @@
 
 
 // export const metadata = {
-//   title: "Shiv Mohan Band & Events | Premium Royal Baraats",
+//   title: "Shiv Mohan Band and Events | Premium Royal Baraats",
 //   description:
 //     "Making Royal Baraats Memorable Since 1980. Trusted by generations of families across India for unforgettable luxury wedding experiences.",
 // };
@@ -39,41 +39,47 @@ import {
   Noto_Sans_Devanagari,
 } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+import dynamic from "next/dynamic";
 import { Providers } from "@/components/providers";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import LocalBusinessSchema from "@/components/schema";
-import FloatingActions from "@/components/floating-actions";
+// FloatingActions only appears after scroll — lazy load it
+const FloatingActions = dynamic(() => import("@/components/floating-actions"), { ssr: true });
 
 
-// 1. Core Typography: Minimal layout shifts, high performance
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
+  preload: true,
 });
 
-// 2. Headings: The luxury, editorial serif
+// 2. Headings: luxury editorial serif — load only needed weights
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "600", "700"],
   variable: "--font-cormorant",
   display: "swap",
+  preload: true,
 });
 
-// 3. Subheadings: The royal, cinematic serif
+// 3. Subheadings: royal cinematic serif
 const cinzel = Cinzel({
   subsets: ["latin"],
+  weight: ["400", "600"],
   variable: "--font-cinzel",
   display: "swap",
 });
 
-// 4. Hindi Accents: Clean and traditional Devanagari
+// 4. Hindi Accents: Devanagari — load on demand
 const notoSansDevanagari = Noto_Sans_Devanagari({
   subsets: ["devanagari"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "600"],
   variable: "--font-noto-hindi",
   display: "swap",
+  preload: false,
 });
 
 
@@ -82,45 +88,55 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 export const metadata = {
   metadataBase: new URL("https://www.shivmohanbandagra.com"),
   title: {
-    default:"Shiv Mohan Band Agra | Wedding Band, DJ, Ghori & Baggi",
-    template: "%s | Shiv Mohan Band",
+    default: "Wedding Band in Agra | Shiv Mohan Band and Events",
+    template: "%s | Shiv Mohan Band and Events",
   },
- description:"Shiv Mohan Band Agra provides wedding band, DJ, Nashik Dhol, Ghori, Baggi, vintage cars, lighting and complete baraat services across Agra since 1980.",
+  description:
+    "Looking for a wedding band in Agra? Shiv Mohan Band and Events provides wedding bands, brass bands, Punjabi & Nashik Dhol, DJ, shehnai and royal baraat services. Trusted since 1980. Book your date today.",
   keywords: [
-  "Wedding Band Agra",
-  "Marriage Band Agra",
-  "Baraat Band Agra",
-  "DJ Services Agra",
-  "Ghori Booking Agra",
-  "Baggi Booking Agra",
-  "Nashik Dhol Agra",
-  "Wedding Lighting Agra",
-  "Vintage Car Rental Agra",
-  "Wedding Event Planner Agra",
-  "Shiv Mohan Band"
-],
-  authors: [{ name: "Shiv Mohan Band & Events" }],
-  creator: "Shiv Mohan Band & Events",
-  publisher: "Shiv Mohan Band & Events",
+    "wedding band in Agra",
+    "best wedding band in Agra",
+    "wedding bands in Agra",
+    "brass band in Agra",
+    "band baja in Agra",
+    "baraat band Agra",
+    "Punjabi dhol Agra",
+    "Nashik dhol Agra",
+    "dhol player Agra",
+    "shehnai player Agra",
+    "wedding DJ Agra",
+    "ghori baggi Agra",
+    "vintage car wedding Agra",
+    "wedding decoration Agra",
+    "wedding band near me",
+    "live band Agra",
+    "baraat services Agra",
+    "Shiv Mohan Band",
+    "Shiv Mohan Band Agra",
+  ],
+  authors: [{ name: "Shiv Mohan Band and Events" }],
+  creator: "Shiv Mohan Band and Events",
+  publisher: "Shiv Mohan Band and Events",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://www.shivmohanbandagra.com/",
   },
   openGraph: {
-    title:"Wedding Band in Agra | Shiv Mohan Band & Events",
-    description: "Wedding Band, DJ, Ghori, Baggi, Nashik Dhol & Vintage Cars in Agra. Trusted by generations of families across India for unforgettable, luxury wedding experiences.",
+    title: "Wedding Band in Agra | Shiv Mohan Band and Events",
+    description:
+      "Shiv Mohan Band and Events — Agra's most trusted wedding band providing brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai, vintage cars and royal baraat entertainment since 1980.",
     url: "https://www.shivmohanbandagra.com",
-    siteName: "Shiv Mohan Band & Events",
+    siteName: "Shiv Mohan Band and Events",
     images: [
       {
-        url: "/images/og-image.png", // Ensure you create a high-res 1200x630 image here
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Royal Indian Baraat Celebration",
+        alt: "Shiv Mohan Band and Events— Wedding Band & Baraat Services in Agra",
       },
     ],
     locale: "en_IN",
@@ -128,8 +144,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shiv Mohan Band & Events",
-    description: "Making Royal Baraats Memorable Since 1980.",
+    title: "Wedding Band in Agra | Shiv Mohan Band and Events",
+    description:
+      "Agra's most trusted wedding band — brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai & royal baraat services since 1980.",
     images: ["/images/og-image.png"],
   },
   robots: {
@@ -144,10 +161,11 @@ export const metadata = {
     },
   },
   icons: {
-  icon: "/favicon.ico",
-  shortcut: "/favicon.ico",
-},
-verification: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+  verification: {
     google: "x0JN7b2YKYJEsuFATuNKte6Q39ZddENVyL8WUjDFd6I",
   },
 };
@@ -166,13 +184,30 @@ export default function RootLayout({ children }) {
         ${notoSansDevanagari.variable}
       `}
     >
+      <head>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-HXKPKR56CG"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HXKPKR56CG');
+            `,
+          }}
+        />
+      </head>
       <body className="font-sans bg-background text-foreground antialiased transition-colors duration-500 selection:bg-gold/30 selection:text-foreground">
         <Providers>
-          {/* <LocalBusinessSchema /> */}
+          <LocalBusinessSchema />
           <Navbar />
           {children}
-      <FloatingActions />
-
+          <FloatingActions />
           <Footer />
         </Providers>
       </body>

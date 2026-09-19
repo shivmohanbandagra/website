@@ -51,19 +51,38 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* 2. Quick Links */}
+          {/* 2. Services */}
           <div className="flex flex-col">
-            <h4 className="font-subheading text-gold tracking-widest uppercase text-sm mb-6">Explore</h4>
-            <ul className="flex flex-col gap-4 font-sans text-sm text-ivory/70">
-              <li><Link href="/about-us" className="hover:text-gold transition-colors">Our Legacy</Link></li>
-              <li><Link href="/#services" className="hover:text-gold transition-colors">Premium Services</Link></li>
-              <li><Link href="/#gallery" className="hover:text-gold transition-colors">Featured Gallery</Link></li>
-              <li><Link href="/#timeline" className="hover:text-gold transition-colors">How Booking Works</Link></li>
-              <li><Link href="/#testimonials" className="hover:text-gold transition-colors">Client Stories</Link></li>
+            <h4 className="font-subheading text-gold tracking-widest uppercase text-sm mb-6">Our Services</h4>
+            <ul className="flex flex-col gap-3 font-sans text-sm text-ivory/70">
+              <li><Link href="/wedding-band-agra/" className="hover:text-gold transition-colors">Wedding Band in Agra</Link></li>
+              <li><Link href="/brass-band-agra/" className="hover:text-gold transition-colors">Brass Band in Agra</Link></li>
+              <li><Link href="/punjabi-dhol-agra/" className="hover:text-gold transition-colors">Punjabi Dhol in Agra</Link></li>
+              <li><Link href="/nashik-dhol-agra/" className="hover:text-gold transition-colors">Nashik Dhol in Agra</Link></li>
+              <li><Link href="/baraat-services-agra/" className="hover:text-gold transition-colors">Baraat Services</Link></li>
+              <li><Link href="/dj-on-wheels-agra/" className="hover:text-gold transition-colors">DJ on Wheels</Link></li>
+              <li><Link href="/ghori-baggi-agra/" className="hover:text-gold transition-colors">Ghori &amp; Baggi</Link></li>
+              <li><Link href="/vintage-car-rental-agra/" className="hover:text-gold transition-colors">Vintage Car Rental</Link></li>
+              <li><Link href="/shehnai-player-agra/" className="hover:text-gold transition-colors">Shehnai Player</Link></li>
+              <li><Link href="/wedding-decoration-agra/" className="hover:text-gold transition-colors">Wedding Decoration</Link></li>
             </ul>
           </div>
 
-          {/* 3. Contact Info */}
+          {/* 3. Quick Links */}
+          <div className="flex flex-col">
+            <h4 className="font-subheading text-gold tracking-widest uppercase text-sm mb-6">Quick Links</h4>
+            <ul className="flex flex-col gap-3 font-sans text-sm text-ivory/70">
+              <li><Link href="/about/" className="hover:text-gold transition-colors">Our Legacy Since 1980</Link></li>
+              <li><Link href="/#gallery" className="hover:text-gold transition-colors">Photo Gallery</Link></li>
+              <li><Link href="/faq/" className="hover:text-gold transition-colors">Wedding Band FAQ</Link></li>
+              <li><Link href="/contact/" className="hover:text-gold transition-colors">Book Your Baraat Date</Link></li>
+              <li><Link href="/dhol-player-agra/" className="hover:text-gold transition-colors">Dhol Player in Agra</Link></li>
+              <li><Link href="/live-band-agra/" className="hover:text-gold transition-colors">Live Band in Agra</Link></li>
+              <li><Link href="/wedding-band-agra-guide/" className="hover:text-gold transition-colors">Wedding Band Guide</Link></li>
+            </ul>
+          </div>
+
+          {/* 4. Contact Info */}
           <div className="flex flex-col">
             <h4 className="font-subheading text-gold tracking-widest uppercase text-sm mb-6">Contact</h4>
             <ul className="flex flex-col gap-4 font-sans text-sm text-ivory/70">
@@ -115,7 +134,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-sans text-xs text-ivory/40 font-light text-center md:text-left">
-            &copy; {currentYear} Shiv Mohan Band & Events. All rights reserved.
+            &copy; {currentYear} Shiv Mohan Band and Events. All rights reserved.
           </p>
           <div className="flex gap-6 font-sans text-xs text-ivory/40 font-light">
             <Link href="/privacy" className="hover:text-gold transition-colors">Privacy Policy</Link>

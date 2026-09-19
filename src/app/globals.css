@@ -1,6 +1,5 @@
 
 
-
 @import "tailwindcss";
 
 /* Tailwind v4 Theme Configuration */
@@ -11,13 +10,13 @@
   --font-subheading: var(--font-cinzel);
   --font-hindi: var(--font-noto-hindi);
 
-  /* Brand Palette (Pink Theme) */
-  --color-gold: #E91E63;      /* Primary Pink */
-  --color-maroon: #BE185D;    /* Dark Pink */
-  --color-crimson: #F472B6;   /* Light Pink */
+  /* Brand Palette — Gold / Black / Red */
+  --color-gold: #D4A017;        /* Rich Royal Gold */
+  --color-maroon: #8B0000;      /* Deep Red / Maroon */
+  --color-crimson: #C41E3A;     /* Crimson Red */
 
-  --color-ivory: #FFF8FC;     /* Soft White with Pink Tint */
-  --color-charcoal: #111111;
+  --color-ivory: #FAF6EE;       /* Warm Ivory / Off-White */
+  --color-charcoal: #0D0D0D;    /* Deep Black */
   --color-success: #16A34A;
 
   /* Semantic Theme Variables */
@@ -30,21 +29,21 @@
 /* Light / Dark Mode Color Definitions */
 @layer base {
   :root {
-    --bg: #FFF8FC;
-    --fg: #18181B;
+    --bg: #0D0D0D;
+    --fg: #FAF6EE;
 
     /* Glassmorphism panels */
-    --card-bg: rgba(255, 255, 255, 0.72);
-    --card-border: rgba(233, 30, 99, 0.12);
+    --card-bg: rgba(13, 13, 13, 0.80);
+    --card-border: rgba(212, 160, 23, 0.18);
   }
 
   .dark {
-    --bg: #111111;
-    --fg: #FFF8FC;
+    --bg: #0D0D0D;
+    --fg: #FAF6EE;
 
     /* Glassmorphism panels */
-    --card-bg: rgba(17, 17, 17, 0.72);
-    --card-border: rgba(244, 114, 182, 0.18);
+    --card-bg: rgba(13, 13, 13, 0.80);
+    --card-border: rgba(212, 160, 23, 0.22);
   }
 }
 

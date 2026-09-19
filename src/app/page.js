@@ -23,59 +23,55 @@
 // }
 
 
+import dynamic from "next/dynamic";
 import Hero from "@/components/hero";
 import TrustSection from "@/components/trust-section";
-import ServicesSection from "@/components/services";
-import FeaturedGallery from "@/components/gallery";
-import ExperienceTimeline from "@/components/timeline";
-// import Testimonials from "@/components/testimonials";
-// import FloatingActions from "@/components/floating-actions";
-import GoogleReviewsSection from "@/components/google-reviews-section";
-// import GoogleReviewsHighlight from "@/components/GoogleReviewHighlights";
-import ContactCTA from "@/components/contactcta";
+
+// Lazy-load everything below the fold — reduces initial JS bundle significantly
+const ServicesSection = dynamic(() => import("@/components/services"), { ssr: true });
+const FeaturedGallery = dynamic(() => import("@/components/gallery"), { ssr: true });
+const ExperienceTimeline = dynamic(() => import("@/components/timeline"), { ssr: true });
+const GoogleReviewsSection = dynamic(() => import("@/components/google-reviews-section"), { ssr: true });
+const ContactCTA = dynamic(() => import("@/components/contactcta"), { ssr: true });
+
 
 export const metadata = {
   metadataBase: new URL("https://www.shivmohanbandagra.com"),
-  title: {
-    default:"Shiv Mohan Band Agra | Wedding Band, DJ, Ghori & Baggi",
-    template: "%s | Shiv Mohan Band",
-  },
- description:"Shiv Mohan Band Agra provides wedding band, DJ, Nashik Dhol, Ghori, Baggi, vintage cars, lighting and complete baraat services across Agra since 1980.",
+  title: "Wedding Band in Agra | Shiv Mohan Band and Events — Since 1980",
+  description:
+    "Shiv Mohan Band and Events — Agra's most trusted wedding band since 1980. We provide wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ on wheels, shehnai, ghori, baggi, vintage cars and complete royal baraat services in Agra. Book your baraat date now.",
   keywords: [
-  "Wedding Band Agra",
-  "Marriage Band Agra",
-  "Baraat Band Agra",
-  "DJ Services Agra",
-  "Ghori Booking Agra",
-  "Baggi Booking Agra",
-  "Nashik Dhol Agra",
-  "Wedding Lighting Agra",
-  "Vintage Car Rental Agra",
-  "Wedding Event Planner Agra",
-  "Shiv Mohan Band"
-],
-  authors: [{ name: "Shiv Mohan Band & Events" }],
-  creator: "Shiv Mohan Band & Events",
-  publisher: "Shiv Mohan Band & Events",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
+    "wedding band in Agra",
+    "best wedding band in Agra",
+    "wedding bands in Agra",
+    "brass band in Agra",
+    "Punjabi dhol Agra",
+    "Nashik dhol Agra",
+    "baraat band Agra",
+    "band baja in Agra",
+    "wedding DJ Agra",
+    "baraat services Agra",
+    "ghori baggi Agra",
+    "vintage car wedding Agra",
+    "shehnai player Agra",
+    "wedding band near me",
+    "Shiv Mohan Band Agra",
+  ],
   alternates: {
-    canonical: "/",
+    canonical: "https://www.shivmohanbandagra.com/",
   },
   openGraph: {
-    title:"Wedding Band in Agra | Shiv Mohan Band & Events",
-    description: "Wedding Band, DJ, Ghori, Baggi, Nashik Dhol & Vintage Cars in Agra. Trusted by generations of families across India for unforgettable, luxury wedding experiences.",
+    title: "Wedding Band in Agra | Shiv Mohan Band and Events — Since 1980",
+    description:
+      "Agra's most trusted wedding band since 1980. Complete baraat services — brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai, vintage cars & royal baraat entertainment.",
     url: "https://www.shivmohanbandagra.com",
-    siteName: "Shiv Mohan Band & Events",
+    siteName: "Shiv Mohan Band and Events",
     images: [
       {
-        url: "/images/og-image.png", // Ensure you create a high-res 1200x630 image here
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Royal Indian Baraat Celebration",
+        alt: "Shiv Mohan Band and Events — Wedding Band & Baraat Services in Agra since 1980",
       },
     ],
     locale: "en_IN",
@@ -83,8 +79,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shiv Mohan Band & Events",
-    description: "Making Royal Baraats Memorable Since 1980.",
+    title: "Wedding Band in Agra | Shiv Mohan Band and Events",
+    description:
+      "Agra's most trusted wedding band — brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai & royal baraat services since 1980.",
     images: ["/images/og-image.png"],
   },
   robots: {
@@ -98,13 +95,6 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-  icon: "/favicon.ico",
-  shortcut: "/favicon.ico",
-},
-// verification: {
-//     google: "A2b6yMNt6PwEdGkjkPSCa5n0BS-4iMclKv6Xef9vfZA",
-//   },
 };
 
 export default function Home() {

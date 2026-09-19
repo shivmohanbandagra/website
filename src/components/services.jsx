@@ -152,123 +152,102 @@ import { ArrowUpRight } from "lucide-react";
 const services = [
   {
     id: 1,
-    title: "Royal Wedding Band",
-    description:
-      "Our signature brass ensemble delivering majestic melodies for the ultimate Baraat experience.",
+    title: "Wedding Band in Agra",
+    description: "Shiv Mohan Band — Agra's most trusted wedding band for royal baraat processions since 1980.",
     image: "/images/services/band.jpeg",
+    href: "/wedding-band-agra/",
   },
   {
     id: 2,
-    title: "Nashik & Punjabi Dhol",
-    description:
-      "High-energy traditional percussion that sets an unforgettable rhythm for your celebration.",
+    title: "Nashik Dhol in Agra",
+    description: "Synchronized Nashik Dhol group performance — powerful, high-energy percussion for baraat celebrations.",
     image: "/images/services/dhol.jpeg",
+    href: "/nashik-dhol-agra/",
   },
   {
     id: 3,
-    title: "Vintage Car Rental",
-    description:
-      "Classic open-top convertibles decorated with premium florals for a truly royal entry.",
+    title: "Vintage Car for Wedding",
+    description: "Luxury vintage cars decorated with flowers for a royal, cinematic wedding entry in Agra.",
     image: "/images/services/car.jpeg",
+    href: "/vintage-car-rental-agra/",
   },
   {
     id: 4,
-    title: "Shehnai & Traditional",
-    description:
-      "Auspicious, soulful melodies to welcome your guests and bless the wedding rituals.",
+    title: "Shehnai Player in Agra",
+    description: "Classical shehnai for auspicious wedding ceremonies — soulful melodies that bless every ritual.",
     image: "/images/services/shehnai.jpeg",
+    href: "/shehnai-player-agra/",
   },
   {
     id: 5,
-    title: "Floral Chattar",
-    description:
-      "Handcrafted floral canopies and grand entrance concepts for the bride and groom.",
+    title: "Wedding Decoration",
+    description: "Complete wedding decoration for baraat, haldi, mehndi and reception in Agra.",
     image: "/images/services/decor.jpeg",
+    href: "/wedding-decoration-agra/",
   },
   {
     id: 6,
-    title: "DJ on Wheels",
-    description:
-      "Modern mobile sound systems bringing contemporary beats seamlessly into the Baraat.",
+    title: "DJ on Wheels in Agra",
+    description: "Professional DJ on wheels with modern sound system — non-stop Bollywood energy for your baraat.",
     image: "/images/services/dj.jpeg",
+    href: "/dj-on-wheels-agra/",
   },
   {
     id: 7,
-    title: "Wedding Band",
-    description:
-      "A full live ensemble crafting the perfect musical backdrop for every moment of your celebration.",
+    title: "Baraat Services Agra",
+    description: "Complete royal baraat package — band, dhol, DJ, ghori, baggi and vintage car all in one.",
     image: "/images/services/weddingband.jpg",
+    href: "/baraat-services-agra/",
   },
   {
     id: 8,
-    title: "Brass Band",
-    description:
-      "Grand, resonant brass performances that bring royal pomp and pageantry to your Baraat.",
+    title: "Brass Band in Agra",
+    description: "Professional brass band with skilled musicians for royal baraat processions in Agra.",
     image: "/images/services/brassband.jpeg",
+    href: "/brass-band-agra/",
   },
   {
     id: 9,
-    title: "Punjabi Dhol",
-    description:
-      "Thunderous dhol beats that ignite the dance floor and keep the energy soaring all night.",
+    title: "Punjabi Dhol in Agra",
+    description: "High-energy Punjabi Dhol beats that ignite the baraat and make guests dance with joy.",
     image: "/images/services/punjabidhol.jpeg",
+    href: "/punjabi-dhol-agra/",
   },
   {
     id: 10,
-    title: "Nashik Dhol",
-    description:
-      "Synchronized Nashik-style drumming delivering a powerful, high-octane percussion spectacle.",
+    title: "Nashik Dhol Group",
+    description: "Synchronized Nashik Dhol drumming — a spectacular visual and rhythmic performance.",
     image: "/images/services/nashikdhol1.webp",
+    href: "/nashik-dhol-agra/",
   },
   {
     id: 11,
-    title: "Umbrella Light",
-    description:
-      "Illuminated LED umbrellas creating a dazzling canopy of light for a truly regal procession.",
+    title: "Ghori & Baggi in Agra",
+    description: "Beautifully decorated Ghori and royal Baggi for the groom's grand baraat entry in Agra.",
     image: "/images/services/umbrellalight.jpeg",
+    href: "/ghori-baggi-agra/",
   },
-  // {
-  //   id: 12,
-  //   title: "DJ Band",
-  //   description:
-  //     "A fusion of live instruments and DJ beats, blending tradition with a modern party atmosphere.",
-  //   image: "/images/services/dj-band.jpeg",
-  // },
-  // {
-  //   id: 13,
-  //   title: "Music Band",
-  //   description:
-  //     "Versatile live musicians performing curated setlists to elevate every reception and sangeet.",
-  //   image: "/images/services/music-band.jpeg",
-  // },
   {
     id: 14,
-    title: "Live Band",
-    description:
-      "Professional performers delivering high-energy live sets that keep guests dancing till dawn.",
+    title: "Live Band in Agra",
+    description: "Professional live band for weddings, sangeet nights and special celebrations in Agra.",
     image: "/images/services/liveband.jpeg",
+    href: "/live-band-agra/",
   },
   {
     id: 15,
-    title: "Home Decor",
-    description:
-      "Elegant floral and lighting installations that transform your home for pre-wedding festivities.",
+    title: "Haldi Decoration Agra",
+    description: "Vibrant floral and prop decoration for joyous, picture-perfect Haldi ceremonies in Agra.",
     image: "/images/services/homedecor1.jpeg",
+    href: "/wedding-decoration-agra/",
   },
   {
     id: 16,
-    title: "Haldi/Mhendi Decor",
-    description:
-      "Vibrant yellow-themed florals and props designed for a joyous, picture-perfect Haldi ceremony.",
+    title: "Mehndi Decoration",
+    description: "Colourful, festive mehndi night decoration with flowers, fabrics and lights in Agra.",
     image: "/images/services/haldi.jpeg",
+    href: "/wedding-decoration-agra/",
   },
-  // {
-  //   id: 17,
-  //   title: "Mehndi Decor",
-  //   description:
-  //     "Colorful drapes, jhoolas, and floral backdrops crafted for an enchanting Mehndi celebration.",
-  //   image: "/images/services/mhendi.jpeg",
-  // },
 ];
 
 export default function ServicesSection() {
@@ -298,15 +277,17 @@ export default function ServicesSection() {
             </motion.h2>
           </div>
 
-          <motion.button
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="group hidden md:flex items-center gap-2 font-subheading text-sm uppercase tracking-widest text-foreground hover:text-gold transition-colors"
-          >
-            View All Services
-            <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
-          </motion.button>
+          <Link href="/baraat-services-agra/">
+            <motion.span
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="group hidden md:flex items-center gap-2 font-subheading text-sm uppercase tracking-widest text-foreground hover:text-gold transition-colors"
+            >
+              View All Services
+              <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
+            </motion.span>
+          </Link>
         </div>
 
         {/* Services Grid */}
@@ -316,10 +297,7 @@ export default function ServicesSection() {
             const delay = (index % 3) * 0.15;
 
             return (
-              <Link
-  href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20secure%20my%20wedding%20date."
-  target="_blank"
->
+              <Link key={service.id} href={service.href}>
               <motion.div
                 key={service.id}
                 initial={{ opacity: 0, y: 40 }}
@@ -331,28 +309,21 @@ export default function ServicesSection() {
                   ease: [0.25, 0.46, 0.45, 0.94],
                 }}
                 className="group relative aspect-[4/5] w-full overflow-hidden rounded-sm cursor-pointer bg-charcoal"
-                // onClick={() => {
-                //   // Navigate to the service detail page or perform any action
-                //   window.location.href = `https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20secure%20my%20wedding%20date.`;
-                //   target="_blank";
-                // }}
               >
                 {/* Background Image */}
                 <Image
                   src={service.image}
-                  alt={service.title}
+                  alt={`${service.title} — Shiv Mohan Band Agra`}
                   fill
                   priority={index === 0}
-                  sizes="(max-width: 768px) 100vw,
-         (max-width: 1024px) 50vw,
-         33vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100"
                 />
 
-                {/* Gradient Overlay for Text Readability */}
+                {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/90 via-charcoal/20 to-transparent transition-opacity duration-500" />
 
-                {/* Golden Border Frame (Reveals on hover) */}
+                {/* Golden Border Frame */}
                 <div className="absolute inset-4 border border-gold/0 group-hover:border-gold/30 transition-colors duration-500 z-10 pointer-events-none" />
 
                 {/* Content */}
