@@ -76,12 +76,12 @@ export default function FloatingActions() {
           >
             <div className="flex items-center justify-between p-2 px-4 gap-3">
               {/* Call Action */}
-              <button className="flex-1 flex flex-col items-center justify-center py-2 text-foreground/70 hover:text-foreground transition-colors">
+              <a href="tel:+919457500318" className="flex-1 flex flex-col items-center justify-center py-2 text-foreground/70 hover:text-foreground transition-colors">
                 <Phone className="w-5 h-5 mb-1" strokeWidth={1.5} />
                 <span className="text-[9px] font-subheading uppercase tracking-widest">
                   Call
                 </span>
-              </button>
+              </a>
 
 {/* Primary Center Action (Book) */}
 <a 

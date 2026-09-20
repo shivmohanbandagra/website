@@ -539,7 +539,7 @@ export default function Hero() {
                 className="mb-6 px-6 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md"
               >
                 <span className="font-subheading text-ivory tracking-[0.2em] text-sm uppercase">
-                  Agra&apos;s Most Trusted Wedding Band
+                  Agra&apos;s Best Wedding Band
                 </span>
               </motion.div>
 
@@ -548,7 +548,7 @@ export default function Hero() {
                 variants={itemVariants}
                 className="font-heading text-5xl lg:text-6xl xl:text-7xl text-ivory leading-tight mb-4"
               >
-                Wedding Band in Agra <br />
+                Best Wedding Band in Agra <br />
                 <span className="text-gold italic">
                   for Royal Baraat &amp; Celebrations
                 </span>
@@ -579,13 +579,13 @@ export default function Hero() {
                 className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10"
               >
                 <a
-                  href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20baraat."
+                  href="tel:+919457500318"
                   target="_blank"
                   rel="noopener noreferrer"
                   id="desktop-hero-cta-check-baraat-date"
                   className="group relative px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-charcoal flex items-center justify-center gap-3 overflow-hidden font-semibold"
                 >
-                  <span className="relative z-10">Check Your Baraat Date</span>
+                  <span className="relative z-10">Call Us</span>
 
                   <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
                 </a>

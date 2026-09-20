@@ -144,9 +144,9 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="lg:hidden fixed inset-0 top-16 sm:top-18 bg-charcoal/98 backdrop-blur-xl z-40 flex flex-col"
+            className="lg:hidden fixed inset-0 top-16 sm:top-18 bg-charcoal/98 backdrop-blur-xl z-400 flex flex-col"
           >
-            <div className="flex flex-col items-center justify-center flex-1 gap-8 p-8">
+            <div className="flex flex-col items-center justify-center flex-1 gap-8 p-8 bg-charcoal/98 ">
               {navLinks.map((link, index) => {
                 const isActive = pathname === link.href;
                 return (

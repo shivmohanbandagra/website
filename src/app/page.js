@@ -37,9 +37,9 @@ const ContactCTA = dynamic(() => import("@/components/contactcta"), { ssr: true 
 
 export const metadata = {
   metadataBase: new URL("https://www.shivmohanbandagra.com"),
-  title: "Wedding Band in Agra | Shiv Mohan Band and Events — Since 1980",
+  title: "Best Wedding Band in Agra | Shiv Mohan Band and Events — Since 1980",
   description:
-    "Shiv Mohan Band and Events — Agra's most trusted wedding band since 1980. We provide wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ on wheels, shehnai, ghori, baggi, vintage cars and complete royal baraat services in Agra. Book your baraat date now.",
+    "Shiv Mohan Band and Events — Agra's best wedding band since 1980. We provide wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ on wheels, shehnai, ghori, baggi, vintage cars and complete royal baraat services in Agra. Book your baraat date now.",
   keywords: [
     "wedding band in Agra",
     "best wedding band in Agra",
