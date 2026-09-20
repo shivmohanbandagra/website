@@ -462,7 +462,7 @@ export default function Hero() {
               className="mb-8 px-6 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md"
             >
               <span className="font-subheading text-ivory tracking-[0.2em] text-sm uppercase">
-                Agra&apos;s Premium Wedding Choice
+                Agra&apos;s Best Wedding Band
               </span>
             </motion.div>
 
@@ -470,18 +470,20 @@ export default function Hero() {
               variants={itemVariants}
               className="font-heading text-5xl md:text-7xl lg:text-8xl text-ivory leading-tight mb-4"
             >
-              Wedding Band in Agra <br className="hidden md:block" />
-              <span className="text-gold italic">
-                for Royal Baraat & Celebrations
-              </span>
+              Best Wedding Band in Agra <br className="hidden md:block" />
+                <span className="text-gold italic">
+                  for Royal Baraat &amp; Celebrations
+                </span>
             </motion.h1>
 
             <motion.p
               variants={itemVariants}
               className="font-sans text-lg md:text-xl text-ivory/80 max-w-2xl mb-12 font-light"
             >
-              Trusted by generations of families across Agra for unforgettable
-              royal baraat experiences since 1980.
+              Shiv Mohan Band &amp; Events is a wedding band and baraat
+                entertainment service based in Agra, providing wedding bands,
+                brass bands, Punjabi Dhol, Nashik Dhol, DJ services, shehnai,
+                vintage cars and royal baraat arrangements since 1980.
             </motion.p>
 
             <motion.div
@@ -489,14 +491,14 @@ export default function Hero() {
               className="flex flex-col sm:flex-row items-center gap-6"
             >
               <a
-                href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20baraat."
+                href="tel:+919457500318"
                 target="_blank"
                 rel="noopener noreferrer"
                 id="hero-cta-check-baraat-date"
                 className="group relative px-8 py-4 bg-gold text-ivory font-subheading uppercase tracking-widest text-sm transition-all hover:bg-ivory hover:text-gold flex items-center gap-3 overflow-hidden"
               >
                 <span className="relative z-10 font-semibold">
-                  Check Your Baraat Date
+                  Call Us
                 </span>
                 <ArrowRight className="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" />
               </a>
