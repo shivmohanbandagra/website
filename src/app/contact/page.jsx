@@ -42,7 +42,7 @@ export default function ContactPage() {
         </nav> */}
 
         {/* Hero */}
-        <section className="bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
+        <section className="editorial-hero bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
           <div className="max-w-3xl mx-auto">
             <p className="font-subheading text-gold tracking-widest uppercase text-sm mb-4">Get in Touch</p>
             <h1 className="font-heading text-4xl md:text-5xl text-ivory mb-4">
@@ -61,7 +61,9 @@ export default function ContactPage() {
 
               {/* WhatsApp */}
               <div className="p-8 bg-charcoal/30 border border-gold/20 rounded-sm text-center">
-                <div className="text-5xl mb-4">💬</div>
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full border border-gold/25 bg-gold/10 text-gold">
+                  <MessageCircle className="h-6 w-6" aria-hidden="true" />
+                </div>
                 <h2 className="font-heading text-2xl text-ivory mb-3">WhatsApp Us</h2>
                 <p className="font-sans text-ivory/60 text-sm mb-6 leading-relaxed">
                   Fastest way to reach us. We respond quickly on WhatsApp — share your date, venue and requirements to get a quote.
@@ -80,7 +82,9 @@ export default function ContactPage() {
 
               {/* Call */}
               <div className="p-8 bg-charcoal/30 border border-gold/20 rounded-sm text-center">
-                <div className="text-5xl mb-4">📞</div>
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full border border-gold/25 bg-gold/10 text-gold">
+                  <Phone className="h-6 w-6" aria-hidden="true" />
+                </div>
                 <h2 className="font-heading text-2xl text-ivory mb-3">Call Us Directly</h2>
                 <p className="font-sans text-ivory/60 text-sm mb-6 leading-relaxed">
                   Prefer to speak directly? Call us during business hours and our team will be happy to discuss your wedding requirements.

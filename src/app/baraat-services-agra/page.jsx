@@ -46,14 +46,14 @@ export default function BaraatServicesAgraPage() {
         service="baraat"
         breadcrumbs={[{ label: "Baraat Services in Agra", href: "/baraat-services-agra/" }]}
         features={[
-          { icon: "🎵", title: "Live Wedding Band", description: "Professional brass band and live musicians leading your baraat procession with energetic, celebratory music." },
-          { icon: "🥁", title: "Punjabi & Nashik Dhol", description: "High-energy Punjabi Dhol and synchronized Nashik Dhol group performances for maximum baraat excitement." },
-          { icon: "🎧", title: "DJ on Wheels", description: "Modern DJ on wheels with professional sound system to keep the baraat energy high throughout the procession." },
-          { icon: "🎷", title: "Shehnai", description: "Traditional shehnai for ceremonial moments, adding a spiritual and classical dimension to your celebrations." },
-          { icon: "🐎", title: "Ghori & Baggi", description: "Beautifully decorated Ghori (horse) and royal Baggi (horse carriage) for the groom's grand baraat entrance." },
-          { icon: "🚗", title: "Vintage Cars", description: "Luxury vintage cars for an elegant, cinematic entry that creates lasting memories." },
-          { icon: "💡", title: "Decorative Lighting", description: "LED lights, decorative lighting and flower chattar to enhance the visual spectacle of your baraat at night." },
-          { icon: "🌸", title: "Floral Decorations", description: "Flower chattar and floral decorations that add beauty and fragrance to the baraat procession." },
+          { icon: "music", title: "Live Wedding Band", description: "Professional brass band and live musicians leading your baraat procession with energetic, celebratory music." },
+          { icon: "drum", title: "Punjabi & Nashik Dhol", description: "High-energy Punjabi Dhol and synchronized Nashik Dhol group performances for maximum baraat excitement." },
+          { icon: "headphones", title: "DJ on Wheels", description: "Modern DJ on wheels with professional sound system to keep the baraat energy high throughout the procession." },
+          { icon: "music", title: "Shehnai", description: "Traditional shehnai for ceremonial moments, adding a spiritual and classical dimension to your celebrations." },
+          { icon: "crown", title: "Ghori & Baggi", description: "Beautifully decorated Ghori (horse) and royal Baggi (horse carriage) for the groom's grand baraat entrance." },
+          { icon: "car", title: "Vintage Cars", description: "Luxury vintage cars for an elegant, cinematic entry that creates lasting memories." },
+          { icon: "lightbulb", title: "Decorative Lighting", description: "LED lights, decorative lighting and flower chattar to enhance the visual spectacle of your baraat at night." },
+          { icon: "flower", title: "Floral Decorations", description: "Flower chattar and floral decorations that add beauty and fragrance to the baraat procession." },
         ]}
         whyChooseItems={[
           { title: "Complete One-Stop Service", description: "Book every element of your baraat from a single trusted source — band, dhol, DJ, ghori, baggi, vintage cars and decoration." },
@@ -71,14 +71,14 @@ export default function BaraatServicesAgraPage() {
           { q: "Can I customize my baraat package?", a: "Yes, absolutely. We offer fully customizable baraat packages. You choose the combination of services based on your wedding vision and budget." },
         ]}
         relatedServices={[
-          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "🎺" },
-          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "🥁" },
-          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "🎧" },
-          { label: "Ghori & Baggi", href: "/ghori-baggi-agra/", icon: "🐎" },
-          { label: "Vintage Car", href: "/vintage-car-rental-agra/", icon: "🚗" },
-          { label: "Shehnai Player", href: "/shehnai-player-agra/", icon: "🎷" },
+          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "music" },
+          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "drum" },
+          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "headphones" },
+          { label: "Ghori & Baggi", href: "/ghori-baggi-agra/", icon: "crown" },
+          { label: "Vintage Car", href: "/vintage-car-rental-agra/", icon: "car" },
+          { label: "Shehnai Player", href: "/shehnai-player-agra/", icon: "music" },
         ]}
       />
     </>

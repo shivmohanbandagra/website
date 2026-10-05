@@ -37,12 +37,12 @@ export default function ShehnaiPlayerAgraPage() {
         service="shehnai"
         breadcrumbs={[{ label: "Shehnai Player in Agra", href: "/shehnai-player-agra/" }]}
         features={[
-          { icon: "🎷", title: "Authentic Shehnai Performance", description: "Professional shehnai players delivering the traditional, auspicious melody that has been part of Indian weddings for centuries." },
-          { icon: "🕉️", title: "Auspicious Wedding Atmosphere", description: "The melodic tones of shehnai create a sacred, ceremonial atmosphere for Hindu wedding rituals." },
-          { icon: "🎵", title: "Traditional Wedding Ragas", description: "Experienced players performing traditional wedding ragas and auspicious compositions during ceremonies." },
-          { icon: "🌸", title: "Ceremony & Baraat", description: "Shehnai for both the wedding ceremony (phere, kanyadaan) and baraat procession for a complete traditional touch." },
-          { icon: "🎺", title: "Combine with Band & Dhol", description: "Include shehnai alongside the wedding band, brass band and dhol for a complete multi-dimensional baraat experience." },
-          { icon: "📍", title: "All Agra Venues", description: "Available at any wedding venue, marriage hall or mandap across Agra and surrounding areas." },
+          { icon: "music", title: "Authentic Shehnai Performance", description: "Professional shehnai players delivering the traditional, auspicious melody that has been part of Indian weddings for centuries." },
+          { icon: "music", title: "Auspicious Wedding Atmosphere", description: "The melodic tones of shehnai create a sacred, ceremonial atmosphere for Hindu wedding rituals." },
+          { icon: "music", title: "Traditional Wedding Ragas", description: "Experienced players performing traditional wedding ragas and auspicious compositions during ceremonies." },
+          { icon: "flower", title: "Ceremony & Baraat", description: "Shehnai for both the wedding ceremony (phere, kanyadaan) and baraat procession for a complete traditional touch." },
+          { icon: "music", title: "Combine with Band & Dhol", description: "Include shehnai alongside the wedding band, brass band and dhol for a complete multi-dimensional baraat experience." },
+          { icon: "map-pin", title: "All Agra Venues", description: "Available at any wedding venue, marriage hall or mandap across Agra and surrounding areas." },
         ]}
         whyChooseItems={[
           { title: "Professional Shehnai Players", description: "Our shehnai players are experienced musicians with expertise in traditional wedding ragas and ceremonial compositions." },
@@ -57,12 +57,12 @@ export default function ShehnaiPlayerAgraPage() {
           { q: "When during the wedding is shehnai played?", a: "Shehnai is traditionally played during wedding rituals such as the baraat arrival, kanyadaan, phere (wedding vows), and during festive and auspicious moments throughout the celebration." },
         ]}
         relatedServices={[
-          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "🎺" },
-          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "🥁" },
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "Live Band in Agra", href: "/live-band-agra/", icon: "🎶" },
+          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "music" },
+          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "drum" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "Live Band in Agra", href: "/live-band-agra/", icon: "music" },
         ]}
       />
     </>

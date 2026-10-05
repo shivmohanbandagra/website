@@ -37,12 +37,12 @@ export default function DholPlayerAgraPage() {
         service="dhol player"
         breadcrumbs={[{ label: "Dhol Player in Agra", href: "/dhol-player-agra/" }]}
         features={[
-          { icon: "🥁", title: "Punjabi Dhol Players", description: "High-energy Punjabi Dhol players delivering powerful beats that energize the entire baraat procession." },
-          { icon: "🥁", title: "Nashik Dhol Groups", description: "Synchronized Nashik Dhol groups of 4–12 players for a spectacular visual and rhythmic performance." },
-          { icon: "🎵", title: "Traditional & Modern Beats", description: "From traditional wedding dhol beats to popular Bollywood songs — our players adapt to your preferences." },
-          { icon: "⚡", title: "High Energy Performance", description: "Experienced players who understand the flow of a baraat and keep energy levels at their peak." },
-          { icon: "🎺", title: "Combine with Wedding Band", description: "Book dhol players alongside our wedding band, brass band, DJ and other services for a complete baraat." },
-          { icon: "📍", title: "All Agra Areas", description: "Available at any wedding venue across Agra and surrounding areas." },
+          { icon: "drum", title: "Punjabi Dhol Players", description: "High-energy Punjabi Dhol players delivering powerful beats that energize the entire baraat procession." },
+          { icon: "drum", title: "Nashik Dhol Groups", description: "Synchronized Nashik Dhol groups of 4–12 players for a spectacular visual and rhythmic performance." },
+          { icon: "music", title: "Traditional & Modern Beats", description: "From traditional wedding dhol beats to popular Bollywood songs — our players adapt to your preferences." },
+          { icon: "zap", title: "High Energy Performance", description: "Experienced players who understand the flow of a baraat and keep energy levels at their peak." },
+          { icon: "music", title: "Combine with Wedding Band", description: "Book dhol players alongside our wedding band, brass band, DJ and other services for a complete baraat." },
+          { icon: "map-pin", title: "All Agra Areas", description: "Available at any wedding venue across Agra and surrounding areas." },
         ]}
         whyChooseItems={[
           { title: "Both Punjabi & Nashik Dhol Available", description: "Choose from Punjabi Dhol or Nashik Dhol groups based on your baraat style and preferences." },
@@ -57,12 +57,12 @@ export default function DholPlayerAgraPage() {
           { q: "Can dhol players perform alongside a wedding band?", a: "Yes. Our dhol players regularly perform alongside the wedding band, brass band and DJ for a complete, high-energy baraat experience." },
         ]}
         relatedServices={[
-          { label: "Punjabi Dhol in Agra", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "Nashik Dhol in Agra", href: "/nashik-dhol-agra/", icon: "🥁" },
-          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "🎺" },
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "🎧" },
+          { label: "Punjabi Dhol in Agra", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "Nashik Dhol in Agra", href: "/nashik-dhol-agra/", icon: "drum" },
+          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "music" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "headphones" },
         ]}
       />
     </>

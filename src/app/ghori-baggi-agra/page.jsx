@@ -41,12 +41,12 @@ export default function GhoriBaggiAgraPage() {
           { label: "Ghori & Baggi in Agra", href: "/ghori-baggi-agra/" },
         ]}
         features={[
-          { icon: "🐎", title: "Beautifully Decorated Ghori", description: "Traditional groom's horse adorned with ornate decorations, embroidered cloth, flowers and traditional jewelry." },
-          { icon: "🚗", title: "Royal Baggi", description: "Elegant horse-drawn carriage decorated with flowers and ornate details for a cinematic, royal baraat entry." },
-          { icon: "🌸", title: "Floral Decorations", description: "Fresh flower decorations on the Ghori and Baggi matching your wedding colour theme and aesthetic." },
-          { icon: "👑", title: "Royal Experience", description: "Creating the royal, traditional atmosphere that makes the groom's baraat entry a truly spectacular moment." },
-          { icon: "📸", title: "Photogenic Setup", description: "Our decorated Ghori and Baggi create stunning backdrops for wedding photography and videography." },
-          { icon: "🎺", title: "Complete with Band & Dhol", description: "Combine Ghori and Baggi with our wedding band, dhol and DJ for the complete royal baraat experience." },
+          { icon: "crown", title: "Beautifully Decorated Ghori", description: "Traditional groom's horse adorned with ornate decorations, embroidered cloth, flowers and traditional jewelry." },
+          { icon: "car", title: "Royal Baggi", description: "Elegant horse-drawn carriage decorated with flowers and ornate details for a cinematic, royal baraat entry." },
+          { icon: "flower", title: "Floral Decorations", description: "Fresh flower decorations on the Ghori and Baggi matching your wedding colour theme and aesthetic." },
+          { icon: "crown", title: "Royal Experience", description: "Creating the royal, traditional atmosphere that makes the groom's baraat entry a truly spectacular moment." },
+          { icon: "camera", title: "Photogenic Setup", description: "Our decorated Ghori and Baggi create stunning backdrops for wedding photography and videography." },
+          { icon: "music", title: "Complete with Band & Dhol", description: "Combine Ghori and Baggi with our wedding band, dhol and DJ for the complete royal baraat experience." },
         ]}
         whyChooseItems={[
           { title: "Traditional & Authentic", description: "Our Ghori and Baggi maintain the authentic traditional aesthetic that makes Indian wedding baraats so special." },
@@ -61,12 +61,12 @@ export default function GhoriBaggiAgraPage() {
           { q: "Is Ghori available with the wedding band in Agra?", a: "Yes. Ghori can be booked as part of our complete baraat package including wedding band, brass band, Punjabi Dhol, Nashik Dhol, DJ, vintage cars and decoration." },
         ]}
         relatedServices={[
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "Vintage Car", href: "/vintage-car-rental-agra/", icon: "🚗" },
-          { label: "Wedding Band", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "🥁" },
-          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "🎧" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "Vintage Car", href: "/vintage-car-rental-agra/", icon: "car" },
+          { label: "Wedding Band", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "drum" },
+          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "headphones" },
         ]}
       />
     </>

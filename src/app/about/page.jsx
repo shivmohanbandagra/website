@@ -44,7 +44,7 @@ export default function AboutPage() {
 
 
         {/* Hero */}
-        <section className="bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-20 px-6 text-center border-b border-gold/10">
+        <section className="editorial-hero bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-20 px-6 text-center border-b border-gold/10">
           <div className="max-w-4xl mx-auto">
             <div className="inline-block mb-6 px-5 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md">
               <span className="font-subheading text-gold tracking-widest text-xs uppercase">Trusted Since 1980</span>

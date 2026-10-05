@@ -37,7 +37,7 @@ export default function WeddingBandGuide() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <div className="bg-background text-foreground min-h-screen">
+      <div className="bg-background text-foreground min-h-screen pt-16 sm:pt-20">
 
         {/* Breadcrumb */}
         <nav className="bg-charcoal/50 border-b border-gold/10 px-6 py-3">
@@ -50,7 +50,7 @@ export default function WeddingBandGuide() {
         </nav>
 
         {/* Hero */}
-        <section className="bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
+        <section className="editorial-hero bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
           <div className="max-w-3xl mx-auto">
             <p className="font-subheading text-gold tracking-widest uppercase text-sm mb-4">Expert Guide</p>
             <h1 className="font-heading text-4xl md:text-5xl text-ivory mb-4 leading-tight">

@@ -1,31 +1,56 @@
-"use client";
-
 import Link from "next/link";
-import { Phone, MessageCircle, ArrowRight, Star, CheckCircle, ChevronDown } from "lucide-react";
-import { useState } from "react";
+import Image from "next/image";
+import {
+  ArrowRight,
+  AudioLines,
+  Camera,
+  CarFront,
+  CheckCircle,
+  Crown,
+  Drum,
+  Flower2,
+  Headphones,
+  Heart,
+  Lightbulb,
+  MapPin,
+  MessageCircle,
+  Mic2,
+  Music2,
+  Palette,
+  PartyPopper,
+  Phone,
+  Shirt,
+  Sparkles,
+  Star,
+  Zap,
+} from "lucide-react";
+import FAQItem from "@/components/faq-item";
 
-// Reusable FAQ Accordion Item
-function FAQItem({ question, answer }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div className="border border-gold/20 rounded-sm overflow-hidden">
-      <button
-        onClick={() => setOpen(!open)}
-        className="w-full flex justify-between items-center px-6 py-5 text-left bg-charcoal/40 hover:bg-charcoal/60 transition-colors"
-        aria-expanded={open}
-      >
-        <span className="font-sans text-ivory font-medium pr-4">{question}</span>
-        <ChevronDown
-          className={`w-5 h-5 text-gold shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
-        />
-      </button>
-      {open && (
-        <div className="px-6 py-5 bg-charcoal/20 border-t border-gold/10">
-          <p className="font-sans text-ivory/80 leading-relaxed text-sm">{answer}</p>
-        </div>
-      )}
-    </div>
-  );
+const featureIcons = {
+  audio: AudioLines,
+  camera: Camera,
+  car: CarFront,
+  crown: Crown,
+  drum: Drum,
+  flower: Flower2,
+  heart: Heart,
+  headphones: Headphones,
+  lightbulb: Lightbulb,
+  "map-pin": MapPin,
+  microphone: Mic2,
+  music: Music2,
+  audio: AudioLines,
+  palette: Palette,
+  party: PartyPopper,
+  shirt: Shirt,
+  sparkles: Sparkles,
+  star: Star,
+  zap: Zap,
+};
+
+function FeatureIcon({ name, className = "h-5 w-5" }) {
+  const Icon = featureIcons[name] || Music2;
+  return <Icon className={className} aria-hidden="true" />;
 }
 
 // Reusable booking CTA section
@@ -104,31 +129,39 @@ export default function ServicePageLayout({
       </nav>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-charcoal via-charcoal to-maroon/30 py-20 px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 to-transparent pointer-events-none" />
-        <div className="max-w-4xl mx-auto relative z-10 text-center">
-          <div className="inline-block mb-6 px-5 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md">
-            <span className="font-subheading text-gold tracking-widest text-xs uppercase">{heroLabel || "Agra's Premier Wedding Band"}</span>
+      <section className="relative isolate overflow-hidden border-b border-gold/15 bg-charcoal px-5 py-16 sm:px-8 sm:py-20 md:py-24">
+        <Image
+          src="/images/hero.jpg"
+          alt=""
+          fill
+          priority
+          quality={65}
+          sizes="100vw"
+          className="absolute inset-0 -z-20 object-cover object-center opacity-35"
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-charcoal/90 via-charcoal/80 to-charcoal" />
+        <div className="absolute -right-24 top-0 -z-10 h-64 w-64 rounded-full bg-gold/10 blur-3xl sm:h-80 sm:w-80" />
+        <div className="relative z-10 mx-auto max-w-4xl text-center">
+          <div className="mb-5 inline-flex max-w-full items-center rounded-full border border-gold/35 bg-charcoal/55 px-4 py-2 backdrop-blur-sm sm:mb-6 sm:px-5">
+            <span className="font-subheading text-xs uppercase tracking-[0.16em] text-gold sm:text-sm sm:tracking-widest">{heroLabel || "Agra's Premier Wedding Band"}</span>
           </div>
-          <h1 className="font-heading text-4xl md:text-6xl text-ivory leading-tight mb-6">
+          <h1 className="mb-5 font-heading text-[clamp(2.25rem,7vw,4.5rem)] leading-[1.05] text-ivory sm:mb-6">
             {title}
             {subtitle && (
-              <>
-                <br />
-                <span className="text-gold italic">{subtitle}</span>
-              </>
+              <span className="mt-1 block text-gold italic">{subtitle}</span>
             )}
           </h1>
-          <p className="font-sans text-lg text-ivory/80 max-w-2xl mx-auto mb-8 font-light leading-relaxed">
+          <p className="mx-auto mb-7 max-w-2xl font-sans text-base font-light leading-relaxed text-ivory/80 sm:mb-8 sm:text-lg">
             {description}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="mx-auto flex w-full max-w-xl flex-col justify-center gap-3 sm:flex-row sm:gap-4">
             <a
               href="https://wa.me/919457500318?text=Hello%20Shiv%20Mohan%20Band!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20baraat."
               target="_blank"
               rel="noopener noreferrer"
               id="hero-page-cta-whatsapp"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm hover:bg-ivory transition-colors font-semibold"
+              className="inline-flex min-h-14 items-center justify-center gap-3 bg-gold px-6 py-4 font-subheading text-sm font-semibold uppercase tracking-widest text-charcoal transition-colors hover:bg-ivory sm:px-8"
             >
               <span>Check Your Baraat Date</span>
               <ArrowRight className="w-4 h-4" />
@@ -136,22 +169,26 @@ export default function ServicePageLayout({
             <a
               href="tel:+919457500318"
               id="hero-page-cta-call"
-              className="inline-flex items-center gap-3 px-8 py-4 border border-gold/40 text-ivory font-subheading uppercase tracking-widest text-sm hover:bg-gold/10 transition-colors"
+              className="inline-flex min-h-14 items-center justify-center gap-3 border border-gold/40 px-6 py-4 font-subheading text-sm uppercase tracking-widest text-ivory transition-colors hover:bg-gold/10 sm:px-8"
             >
               <Phone className="w-4 h-4 text-gold" />
               Call Us
             </a>
           </div>
           {/* Trust Badges */}
-          <div className="flex flex-wrap justify-center gap-6 mt-10 font-sans text-sm text-ivory/50">
+          <div className="mt-8 flex flex-wrap justify-center gap-x-5 gap-y-2 font-sans text-xs text-ivory/65 sm:mt-10 sm:gap-x-6 sm:text-sm">
             <span className="flex items-center gap-2">
               <Star className="w-4 h-4 text-gold" fill="currentColor" />
               4.9/5 Google Rating
             </span>
-            <span>•</span>
-            <span>250+ Weddings Served</span>
-            <span>•</span>
-            <span>Trusted Since 1980</span>
+            <span className="flex items-center gap-2">
+              <CheckCircle className="h-4 w-4 text-gold" aria-hidden="true" />
+              250+ Weddings Served
+            </span>
+            <span className="flex items-center gap-2">
+              <CheckCircle className="h-4 w-4 text-gold" aria-hidden="true" />
+              Trusted Since 1980
+            </span>
           </div>
         </div>
       </section>
@@ -166,7 +203,9 @@ export default function ServicePageLayout({
                   key={i}
                   className="p-6 border border-gold/20 rounded-sm bg-charcoal/20 hover:border-gold/40 transition-colors"
                 >
-                  <div className="text-3xl mb-4">{feat.icon}</div>
+                  <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-full border border-gold/25 bg-gold/10 text-gold">
+                    <FeatureIcon name={feat.icon} />
+                  </div>
                   <h3 className="font-subheading text-gold tracking-wide text-sm uppercase mb-2">{feat.title}</h3>
                   <p className="font-sans text-ivory/70 text-sm leading-relaxed">{feat.description}</p>
                 </div>
@@ -233,7 +272,9 @@ export default function ServicePageLayout({
                   href={svc.href}
                   className="p-4 bg-charcoal/40 border border-gold/20 rounded-sm text-center hover:border-gold/60 hover:bg-charcoal/60 transition-all group"
                 >
-                  <div className="text-2xl mb-2">{svc.icon}</div>
+                  <div className="mb-2 flex justify-center text-gold">
+                    <FeatureIcon name={svc.icon} />
+                  </div>
                   <span className="font-sans text-ivory/80 text-sm group-hover:text-gold transition-colors">{svc.label}</span>
                 </Link>
               ))}

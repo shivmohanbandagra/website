@@ -50,12 +50,12 @@ export default function NashikDholAgraPage() {
           { label: "Nashik Dhol in Agra", href: "/nashik-dhol-agra/" },
         ]}
         features={[
-          { icon: "🥁", title: "Group Nashik Dhol Performance", description: "4–12 synchronized Nashik Dhol players performing in perfect coordination for a spectacular visual and audio experience." },
-          { icon: "🎶", title: "Powerful Synchronized Rhythms", description: "The combined power of multiple Nashik Dhol players creates a rhythm that resonates through the entire baraat procession." },
-          { icon: "👔", title: "Uniformed Performers", description: "Professional, uniformed Nashik Dhol performers maintaining the royal aesthetic of your baraat." },
-          { icon: "⚡", title: "High-Energy Performance", description: "Nashik Dhol groups are known for their high-energy, enthusiastic performances that energize every baraat." },
-          { icon: "🎺", title: "Perfect with Brass Band", description: "Nashik Dhol combined with the brass band creates the ultimate royal baraat experience in Agra." },
-          { icon: "📍", title: "All Agra Venues", description: "Available for wedding baraats at any venue in Agra and surrounding areas." },
+          { icon: "drum", title: "Group Nashik Dhol Performance", description: "4–12 synchronized Nashik Dhol players performing in perfect coordination for a spectacular visual and audio experience." },
+          { icon: "music", title: "Powerful Synchronized Rhythms", description: "The combined power of multiple Nashik Dhol players creates a rhythm that resonates through the entire baraat procession." },
+          { icon: "shirt", title: "Uniformed Performers", description: "Professional, uniformed Nashik Dhol performers maintaining the royal aesthetic of your baraat." },
+          { icon: "zap", title: "High-Energy Performance", description: "Nashik Dhol groups are known for their high-energy, enthusiastic performances that energize every baraat." },
+          { icon: "music", title: "Perfect with Brass Band", description: "Nashik Dhol combined with the brass band creates the ultimate royal baraat experience in Agra." },
+          { icon: "map-pin", title: "All Agra Venues", description: "Available for wedding baraats at any venue in Agra and surrounding areas." },
         ]}
         whyChooseItems={[
           { title: "Experienced Nashik Dhol Groups", description: "Our Nashik Dhol players are experienced performers who specialize in wedding baraats and special celebrations in Agra." },
@@ -71,12 +71,12 @@ export default function NashikDholAgraPage() {
           { q: "Do you provide Nashik Dhol across Agra?", a: "Yes. We provide Nashik Dhol performances across all areas of Agra including Bodla, Sikandra, Tajganj, Shahganj, Sadar Bazaar, Dayal Bagh and surrounding regions." },
         ]}
         relatedServices={[
-          { label: "Punjabi Dhol in Agra", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "🎺" },
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "🎧" },
-          { label: "Dhol Player in Agra", href: "/dhol-player-agra/", icon: "🥁" },
+          { label: "Punjabi Dhol in Agra", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "music" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "headphones" },
+          { label: "Dhol Player in Agra", href: "/dhol-player-agra/", icon: "drum" },
         ]}
       />
     </>

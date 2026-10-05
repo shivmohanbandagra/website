@@ -49,12 +49,12 @@ export default function BrassBandAgraPage() {
           { label: "Brass Band in Agra", href: "/brass-band-agra/" },
         ]}
         features={[
-          { icon: "🎺", title: "Professional Brass Instruments", description: "Skilled musicians playing trumpets, trombones, tubas and other brass instruments for a powerful, celebratory sound." },
-          { icon: "🥁", title: "Live Percussion", description: "Coordinated percussion section complementing the brass instruments to keep the baraat energy and rhythm high." },
-          { icon: "👔", title: "Uniformed Performers", description: "Well-dressed, uniformed band members presenting a professional and royal appearance for your wedding procession." },
-          { icon: "🎵", title: "Traditional & Modern Music", description: "Performs both traditional wedding songs and popular Bollywood baraat tracks to keep guests entertained." },
-          { icon: "🕯️", title: "Decorative Lighting", description: "LED lighting and decorative lights to enhance the visual spectacle of the baraat procession at night." },
-          { icon: "🎉", title: "Customizable Package", description: "Choose brass band only or combine with Punjabi Dhol, Nashik Dhol, DJ and other services for your complete baraat." },
+          { icon: "music", title: "Professional Brass Instruments", description: "Skilled musicians playing trumpets, trombones, tubas and other brass instruments for a powerful, celebratory sound." },
+          { icon: "drum", title: "Live Percussion", description: "Coordinated percussion section complementing the brass instruments to keep the baraat energy and rhythm high." },
+          { icon: "shirt", title: "Uniformed Performers", description: "Well-dressed, uniformed band members presenting a professional and royal appearance for your wedding procession." },
+          { icon: "music", title: "Traditional & Modern Music", description: "Performs both traditional wedding songs and popular Bollywood baraat tracks to keep guests entertained." },
+          { icon: "sparkles", title: "Decorative Lighting", description: "LED lighting and decorative lights to enhance the visual spectacle of the baraat procession at night." },
+          { icon: "party", title: "Customizable Package", description: "Choose brass band only or combine with Punjabi Dhol, Nashik Dhol, DJ and other services for your complete baraat." },
         ]}
         whyChooseItems={[
           { title: "45+ Years of Expertise", description: "Shiv Mohan Band has been leading wedding baraats in Agra since 1980 with professional brass band performances." },
@@ -70,12 +70,12 @@ export default function BrassBandAgraPage() {
           { q: "What kind of music does the brass band play at baraats?", a: "Our brass band performs traditional wedding songs, popular Bollywood baraat tracks, folk music and celebratory tunes that keep the entire procession energetic and festive." },
         ]}
         relatedServices={[
-          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Punjabi Dhol in Agra", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "Nashik Dhol in Agra", href: "/nashik-dhol-agra/", icon: "🥁" },
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "🎧" },
-          { label: "Shehnai Player", href: "/shehnai-player-agra/", icon: "🎷" },
+          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Punjabi Dhol in Agra", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "Nashik Dhol in Agra", href: "/nashik-dhol-agra/", icon: "drum" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "headphones" },
+          { label: "Shehnai Player", href: "/shehnai-player-agra/", icon: "music" },
         ]}
       />
     </>

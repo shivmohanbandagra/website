@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MapPin, Phone, Mail, Instagram, Facebook, Youtube, Star } from "lucide-react";
+import ReviewDirectoryLinks from "@/components/review-directory-links";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -49,6 +50,7 @@ export default function Footer() {
                 </span>
               </div>
             </div>
+            <ReviewDirectoryLinks className="mt-3 flex flex-wrap gap-2" />
           </div>
 
           {/* 2. Services */}

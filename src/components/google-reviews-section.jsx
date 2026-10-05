@@ -27,7 +27,7 @@ Affordable packages with premium wedding experience.
 Their Russian Dhol player was very good, I liked him the most.
 
 Shiv mohan band
-Thanks🙏`,
+Thanks`,
     badge: "Local Guide",
   },
   {

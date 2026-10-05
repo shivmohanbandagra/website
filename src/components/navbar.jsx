@@ -14,7 +14,7 @@ import { Menu, X, MessageCircle } from "lucide-react";
 
 const navLinks = [
   { name: "Wedding Band", href: "/wedding-band-agra/" },
-  { name: "Services", href: "/baraat-services-agra/" },
+  { name: "Services", href: "/#services" },
   { name: "Blog", href: "/blog/" },
   { name: "FAQ", href: "/faq/" },
   { name: "About", href: "/about/" },

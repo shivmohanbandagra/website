@@ -139,6 +139,12 @@ export default function sitemap() {
       priority: 0.75,
     },
     {
+      url: `${baseUrl}/blog/best-dj-on-wheels-in-agra/`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.75,
+    },
+    {
       url: `${baseUrl}/blog/shehnai-in-indian-weddings/`,
       lastModified,
       changeFrequency: "monthly",

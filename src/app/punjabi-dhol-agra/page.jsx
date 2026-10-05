@@ -50,12 +50,12 @@ export default function PunjabiDholAgraPage() {
           { label: "Punjabi Dhol in Agra", href: "/punjabi-dhol-agra/" },
         ]}
         features={[
-          { icon: "🥁", title: "Authentic Punjabi Dhol", description: "Traditional large two-headed drum producing powerful, deep beats that energize the entire baraat procession." },
-          { icon: "💃", title: "Makes Guests Dance", description: "The energetic rhythm of Punjabi Dhol is famous for getting everyone dancing — from the groom's family to all guests." },
-          { icon: "🎵", title: "Traditional & Bollywood Beats", description: "Expert players perform traditional Punjabi beats, Bhangra rhythms and popular Bollywood wedding songs." },
-          { icon: "🎺", title: "Combine with Wedding Band", description: "Perfect as a complement to the brass band and wedding band for a complete, high-energy baraat experience." },
-          { icon: "⚡", title: "High-Energy Performance", description: "Experienced dhol players who understand the flow of a baraat and know when to build energy and when to sustain it." },
-          { icon: "📍", title: "All Areas of Agra", description: "We travel to all venues and locations within Agra for your wedding baraat performance." },
+          { icon: "drum", title: "Authentic Punjabi Dhol", description: "Traditional large two-headed drum producing powerful, deep beats that energize the entire baraat procession." },
+          { icon: "heart", title: "Makes Guests Dance", description: "The energetic rhythm of Punjabi Dhol is famous for getting everyone dancing — from the groom's family to all guests." },
+          { icon: "music", title: "Traditional & Bollywood Beats", description: "Expert players perform traditional Punjabi beats, Bhangra rhythms and popular Bollywood wedding songs." },
+          { icon: "music", title: "Combine with Wedding Band", description: "Perfect as a complement to the brass band and wedding band for a complete, high-energy baraat experience." },
+          { icon: "zap", title: "High-Energy Performance", description: "Experienced dhol players who understand the flow of a baraat and know when to build energy and when to sustain it." },
+          { icon: "map-pin", title: "All Areas of Agra", description: "We travel to all venues and locations within Agra for your wedding baraat performance." },
         ]}
         whyChooseItems={[
           { title: "Experienced Dhol Players", description: "Our Punjabi Dhol players have years of experience performing at weddings and baraats across Agra." },
@@ -71,12 +71,12 @@ export default function PunjabiDholAgraPage() {
           { q: "How many Punjabi Dhol players do I need for my baraat?", a: "For most baraats, 1–2 Punjabi Dhol players are sufficient. For larger processions, additional players can be arranged. Contact Shiv Mohan Band at +91 94575 00318 to discuss." },
         ]}
         relatedServices={[
-          { label: "Nashik Dhol in Agra", href: "/nashik-dhol-agra/", icon: "🥁" },
-          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "🎺" },
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "🎧" },
-          { label: "Dhol Player in Agra", href: "/dhol-player-agra/", icon: "🥁" },
+          { label: "Nashik Dhol in Agra", href: "/nashik-dhol-agra/", icon: "drum" },
+          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "music" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "headphones" },
+          { label: "Dhol Player in Agra", href: "/dhol-player-agra/", icon: "drum" },
         ]}
       />
     </>

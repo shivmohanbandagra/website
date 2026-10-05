@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MessageCircle } from "lucide-react";
+import { CloudRain, MessageCircle, Snowflake, Sprout, Sun } from "lucide-react";
 
 export const metadata = {
   title: "When to Book a Wedding Band in Agra — Complete Booking Timeline",
@@ -25,39 +25,46 @@ const articleSchema = {
 const seasons = [
   {
     season: "Peak Season: November – February",
-    emoji: "❄️",
+    icon: "snowflake",
     desc: "This is the busiest wedding season in Agra and North India. Auspicious muhurats fall frequently in these months, and most families prefer cooler weather for outdoor baraats. Wedding bands, dhol groups and all baraat services book up very quickly during this period.",
     advice: "Book 6+ months in advance for peak season dates. For November–December weddings, try to confirm your band by May–June at the latest.",
     urgency: "high",
   },
   {
     season: "Second Peak: May – June (Summer)",
-    emoji: "☀️",
+    icon: "sun",
     desc: "Despite the summer heat, May and June have many auspicious wedding dates and are popular for weddings. Demand for wedding bands is high, especially around akha teej and other major wedding muhurats.",
     advice: "Book 4–6 months in advance. For summer weddings, December–January is a good time to start reaching out.",
     urgency: "high",
   },
   {
     season: "Moderate Season: August – October",
-    emoji: "🌧️",
+    icon: "cloud-rain",
     desc: "Post-monsoon months tend to have fewer weddings in North India, but auspicious dates do occur. Demand is moderate and you may have more flexibility in booking.",
     advice: "Book 2–4 months in advance. More options are typically available.",
     urgency: "medium",
   },
   {
     season: "Off Season: March – April & July",
-    emoji: "🌿",
+    icon: "sprout",
     desc: "These months have fewer auspicious wedding muhurats and see lower booking demand. However, this is an excellent time to plan future weddings and lock in preferred vendors for upcoming peak season dates.",
     advice: "Even in off-season, confirm your band early. Use this time to finalize your baraat package and preferences.",
     urgency: "low",
   },
 ];
 
+const seasonIcons = {
+  snowflake: Snowflake,
+  sun: Sun,
+  "cloud-rain": CloudRain,
+  sprout: Sprout,
+};
+
 export default function WeddingBandBookingTimelinePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <div className="bg-background text-foreground min-h-screen">
+      <div className="bg-background text-foreground min-h-screen pt-16 sm:pt-20">
         <nav className="bg-charcoal/50 border-b border-gold/10 px-6 py-3">
           <div className="max-w-4xl mx-auto">
             <ol className="flex flex-wrap items-center gap-2 font-sans text-sm text-ivory/50">
@@ -68,7 +75,7 @@ export default function WeddingBandBookingTimelinePage() {
           </div>
         </nav>
 
-        <section className="bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
+        <section className="editorial-hero bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
           <div className="max-w-3xl mx-auto">
             <span className="font-subheading text-gold tracking-widest uppercase text-xs px-3 py-1 border border-gold/30 rounded-full inline-block mb-6">Planning Guide</span>
             <h1 className="font-heading text-3xl md:text-5xl text-ivory mb-4 leading-tight">
@@ -87,13 +94,17 @@ export default function WeddingBandBookingTimelinePage() {
             <h2 className="font-heading text-3xl text-ivory mb-6">Wedding Season Calendar in Agra</h2>
             <div className="space-y-4">
               {seasons.map((s) => {
+                const SeasonIcon = seasonIcons[s.icon];
                 const border = s.urgency === "high" ? "border-red-500/30" : s.urgency === "medium" ? "border-yellow-500/30" : "border-green-500/30";
                 const badge = s.urgency === "high" ? "bg-red-500/20 text-red-300" : s.urgency === "medium" ? "bg-yellow-500/20 text-yellow-300" : "bg-green-500/20 text-green-300";
                 const badgeText = s.urgency === "high" ? "Book ASAP" : s.urgency === "medium" ? "Book Early" : "Flexible";
                 return (
                   <div key={s.season} className={`p-6 bg-charcoal/20 border ${border} rounded-sm`}>
                     <div className="flex items-start justify-between gap-4 mb-3">
-                      <h3 className="font-sans text-ivory font-semibold">{s.emoji} {s.season}</h3>
+                      <h3 className="flex items-center gap-2 font-sans font-semibold text-ivory">
+                        <SeasonIcon className="h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
+                        {s.season}
+                      </h3>
                       <span className={`font-subheading text-xs tracking-widest uppercase px-2 py-1 rounded-full ${badge} shrink-0`}>{badgeText}</span>
                     </div>
                     <p className="text-sm text-ivory/70 mb-3">{s.desc}</p>

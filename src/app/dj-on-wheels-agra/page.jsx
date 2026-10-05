@@ -37,12 +37,12 @@ export default function DJonWheelsAgraPage() {
         service="DJ"
         breadcrumbs={[{ label: "DJ on Wheels in Agra", href: "/dj-on-wheels-agra/" }]}
         features={[
-          { icon: "🎧", title: "Mobile DJ Setup", description: "Professional DJ equipment mounted on a decorated mobile unit that moves seamlessly with the baraat procession." },
-          { icon: "🔊", title: "High-Quality Sound System", description: "Powerful professional speakers and sound system ensuring crystal-clear music throughout the baraat route." },
-          { icon: "💡", title: "Decorative LED Lighting", description: "Colorful LED lighting and visual effects on the DJ unit creating a spectacular visual display during the baraat." },
-          { icon: "🎵", title: "Custom Playlist", description: "Bollywood hits, wedding songs, folk tracks and your personal song requests — all curated for your baraat." },
-          { icon: "🥁", title: "Perfect with Live Band", description: "DJ on wheels complements the live band and dhol for a dynamic, multi-layered baraat entertainment experience." },
-          { icon: "⚡", title: "Non-Stop Energy", description: "The DJ ensures there are no dull moments during your baraat — continuous high-energy music throughout the procession." },
+          { icon: "headphones", title: "Mobile DJ Setup", description: "Professional DJ equipment mounted on a decorated mobile unit that moves seamlessly with the baraat procession." },
+          { icon: "audio", title: "High-Quality Sound System", description: "Powerful professional speakers and sound system ensuring crystal-clear music throughout the baraat route." },
+          { icon: "lightbulb", title: "Decorative LED Lighting", description: "Colorful LED lighting and visual effects on the DJ unit creating a spectacular visual display during the baraat." },
+          { icon: "music", title: "Custom Playlist", description: "Bollywood hits, wedding songs, folk tracks and your personal song requests — all curated for your baraat." },
+          { icon: "drum", title: "Perfect with Live Band", description: "DJ on wheels complements the live band and dhol for a dynamic, multi-layered baraat entertainment experience." },
+          { icon: "zap", title: "Non-Stop Energy", description: "The DJ ensures there are no dull moments during your baraat — continuous high-energy music throughout the procession." },
         ]}
         whyChooseItems={[
           { title: "Professional DJ Equipment", description: "High-quality, professional DJ equipment ensuring excellent sound quality throughout your baraat." },
@@ -57,12 +57,12 @@ export default function DJonWheelsAgraPage() {
           { q: "Does the DJ service cover all areas of Agra?", a: "Yes. Our DJ on wheels service covers all venues and locations across Agra and surrounding areas." },
         ]}
         relatedServices={[
-          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "🎺" },
-          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "🥁" },
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "Live Band in Agra", href: "/live-band-agra/", icon: "🎶" },
+          { label: "Wedding Band in Agra", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Brass Band in Agra", href: "/brass-band-agra/", icon: "music" },
+          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "Nashik Dhol", href: "/nashik-dhol-agra/", icon: "drum" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "Live Band in Agra", href: "/live-band-agra/", icon: "music" },
         ]}
       />
     </>

@@ -128,6 +128,38 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Wedding Entertainment Guides -->
+  <url>
+    <loc>https://www.shivmohanbandagra.com/blog/how-to-plan-baraat-in-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.shivmohanbandagra.com/blog/punjabi-dhol-vs-nashik-dhol/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.shivmohanbandagra.com/blog/best-wedding-band-in-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.shivmohanbandagra.com/blog/best-dj-on-wheels-in-agra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.shivmohanbandagra.com/blog/shehnai-in-indian-weddings/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.shivmohanbandagra.com/blog/wedding-band-booking-timeline/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
   <!-- Contact -->
   <url>
     <loc>https://www.shivmohanbandagra.com/contact/</loc>

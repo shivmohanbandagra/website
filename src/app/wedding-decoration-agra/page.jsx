@@ -27,12 +27,12 @@ export default function WeddingDecorationAgraPage() {
         service="wedding decoration"
         breadcrumbs={[{ label: "Wedding Decoration in Agra", href: "/wedding-decoration-agra/" }]}
         features={[
-          { icon: "💡", title: "Baraat Lighting", description: "Spectacular LED lighting setups, decorative lights and illuminations that make your baraat procession visually stunning." },
-          { icon: "🌸", title: "Floral Chattar", description: "Traditional and decorative floral chattar (flower umbrella) carried during the baraat for an elegant, festive look." },
-          { icon: "💛", title: "Haldi Decoration", description: "Bright, cheerful and traditional decoration for haldi ceremonies with flowers, marigolds and colourful accents." },
-          { icon: "🎨", title: "Mehndi Decoration", description: "Vibrant, festive decoration for mehndi night celebrations with colourful fabrics, flowers and lights." },
-          { icon: "🌹", title: "Floral Arrangements", description: "Fresh flower arrangements and floral installations for mandap, stage, baraat and reception decoration." },
-          { icon: "✨", title: "Custom Wedding Themes", description: "Custom decoration themes based on your wedding colour palette, style and vision." },
+          { icon: "lightbulb", title: "Baraat Lighting", description: "Spectacular LED lighting setups, decorative lights and illuminations that make your baraat procession visually stunning." },
+          { icon: "flower", title: "Floral Chattar", description: "Traditional and decorative floral chattar (flower umbrella) carried during the baraat for an elegant, festive look." },
+          { icon: "heart", title: "Haldi Decoration", description: "Bright, cheerful and traditional decoration for haldi ceremonies with flowers, marigolds and colourful accents." },
+          { icon: "palette", title: "Mehndi Decoration", description: "Vibrant, festive decoration for mehndi night celebrations with colourful fabrics, flowers and lights." },
+          { icon: "flower", title: "Floral Arrangements", description: "Fresh flower arrangements and floral installations for mandap, stage, baraat and reception decoration." },
+          { icon: "sparkles", title: "Custom Wedding Themes", description: "Custom decoration themes based on your wedding colour palette, style and vision." },
         ]}
         whyChooseItems={[
           { title: "Complete Wedding Decoration", description: "One-stop decoration service for all wedding functions — baraat, haldi, mehndi, ceremony and reception." },
@@ -47,12 +47,12 @@ export default function WeddingDecorationAgraPage() {
           { q: "Do you provide baraat lighting in Agra?", a: "Yes. We provide spectacular LED lighting and decorative light setups for baraat processions that make your baraat visually stunning, especially at night." },
         ]}
         relatedServices={[
-          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "🎉" },
-          { label: "Wedding Band", href: "/wedding-band-agra/", icon: "🎵" },
-          { label: "Ghori & Baggi", href: "/ghori-baggi-agra/", icon: "🐎" },
-          { label: "Vintage Car", href: "/vintage-car-rental-agra/", icon: "🚗" },
-          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "🥁" },
-          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "🎧" },
+          { label: "Baraat Services", href: "/baraat-services-agra/", icon: "party" },
+          { label: "Wedding Band", href: "/wedding-band-agra/", icon: "music" },
+          { label: "Ghori & Baggi", href: "/ghori-baggi-agra/", icon: "crown" },
+          { label: "Vintage Car", href: "/vintage-car-rental-agra/", icon: "car" },
+          { label: "Punjabi Dhol", href: "/punjabi-dhol-agra/", icon: "drum" },
+          { label: "DJ on Wheels", href: "/dj-on-wheels-agra/", icon: "headphones" },
         ]}
       />
     </>

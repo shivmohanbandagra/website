@@ -33,6 +33,13 @@ const posts = [
     date: "August 2026",
   },
   {
+    slug: "best-dj-on-wheels-in-agra",
+    title: "How to Choose the Best DJ on Wheels in Agra for Your Baraat",
+    excerpt: "Compare sound, playlist, procession setup and coordination before booking a baraat DJ in Agra, with practical tips for pairing a DJ on wheels with live dhol and band.",
+    category: "Service Guide",
+    date: "October 2026",
+  },
+  {
     slug: "shehnai-in-indian-weddings",
     title: "The Significance of Shehnai in Indian Weddings — Tradition, Melody & Meaning",
     excerpt: "Why shehnai is considered the most auspicious instrument for Hindu weddings in India. History, significance and how to include shehnai in your wedding ceremony.",
@@ -62,7 +69,7 @@ export default function BlogIndexPage() {
       </nav> */}
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
+      <section className="editorial-hero bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
         <div className="max-w-3xl mx-auto">
           <p className="font-subheading text-gold tracking-widest uppercase text-sm mb-4">Wedding Band Guides</p>
           <h1 className="font-heading text-4xl md:text-5xl text-ivory mb-4">
