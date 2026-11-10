@@ -2,7 +2,7 @@ import ServicePageLayout from "@/components/service-page-layout";
 
 export const metadata = {
   title: "DJ on Wheels in Agra | Wedding DJ Services | Shiv Mohan Band",
-  description: "Professional DJ on wheels for wedding baraats in Agra. Shiv Mohan Band and Events provides high-energy DJ on wheels service with modern sound systems for royal baraat processions in Agra since 1980.",
+  description: "DJ on Wheels for wedding baraats in Agra. Contact Shiv Mohan Band and Events to discuss music, sound setup and availability for your date.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/dj-on-wheels-agra/" },
   openGraph: { title: "DJ on Wheels in Agra | Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com/dj-on-wheels-agra/" },
 };
@@ -48,7 +48,7 @@ export default function DJonWheelsAgraPage() {
           { title: "Professional DJ Equipment", description: "High-quality, professional DJ equipment ensuring excellent sound quality throughout your baraat." },
           { title: "Custom Song Requests", description: "We play your favourite wedding songs, Bollywood hits and folk tracks based on your preferences." },
           { title: "Combine with Live Band", description: "DJ on wheels works perfectly alongside our wedding band, brass band and dhol for a complete baraat experience." },
-          { title: "Trusted Since 1980", description: "Shiv Mohan Band has been providing baraat entertainment including DJ services in Agra for over 45 years." },
+          { title: "DJ on Wheels for Baraats", description: "Ask about the mobile DJ setup, playlist planning and coordination with other performers." },
         ]}
         faqs={[
           { q: "What is DJ on wheels for a baraat?", a: "DJ on wheels is a mobile DJ setup on a decorated vehicle accompanying the baraat procession, playing high-energy Bollywood songs and wedding tracks while moving with the procession to keep energy high throughout." },

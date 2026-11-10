@@ -7,14 +7,13 @@ export default function LocalBusinessSchema() {
         "@id": "https://www.shivmohanbandagra.com/#business",
         "name": "Shiv Mohan Band and Events",
         "url": "https://www.shivmohanbandagra.com",
-        "logo": "https://www.shivmohanbandagra.com/images/logo.png",
+        "logo": "https://www.shivmohanbandagra.com/images/logo.jpeg",
         "image": [
           "https://www.shivmohanbandagra.com/images/hero.jpg",
           "https://www.shivmohanbandagra.com/images/og-image.png"
         ],
         "telephone": "+919457500318",
-        "foundingDate": "1980",
-        "description": "Shiv Mohan Band and Events is a wedding band and baraat entertainment service based in Agra, providing wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, shehnai, DJ services, live music, vintage cars and royal wedding entertainment. Serving families across Agra and surrounding areas since 1980.",
+        "description": "Shiv Mohan Band and Events is a wedding band and baraat entertainment service based in Agra, providing wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, shehnai, DJ services, live music, vintage cars and wedding entertainment.",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Shop No. 1, Sikandra-Bodla Rd, near Gopal Seva Sadan, Bodla",
@@ -38,7 +37,6 @@ export default function LocalBusinessSchema() {
             "name": "Uttar Pradesh"
           }
         ],
-        "priceRange": "₹₹₹",
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -157,20 +155,13 @@ export default function LocalBusinessSchema() {
           "https://www.instagram.com/shivmohanbandagra",
           "https://www.youtube.com/@shivmohanbandagra"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "250",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
       },
       {
         "@type": "WebSite",
         "@id": "https://www.shivmohanbandagra.com/#website",
         "url": "https://www.shivmohanbandagra.com",
         "name": "Shiv Mohan Band and Events",
-        "description": "Wedding Band in Agra — Shiv Mohan Band and Events provides wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ, shehnai and royal baraat services since 1980.",
+        "description": "Wedding Band in Agra — Shiv Mohan Band and Events provides wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ, shehnai and baraat services.",
         "publisher": {
           "@id": "https://www.shivmohanbandagra.com/#business"
         },
@@ -183,11 +174,8 @@ export default function LocalBusinessSchema() {
         "url": "https://www.shivmohanbandagra.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.shivmohanbandagra.com/images/logo.png",
-          "width": 200,
-          "height": 60
+          "url": "https://www.shivmohanbandagra.com/images/logo.jpeg"
         },
-        "foundingDate": "1980",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Shop No. 1, Sikandra-Bodla Rd, near Gopal Seva Sadan, Bodla",

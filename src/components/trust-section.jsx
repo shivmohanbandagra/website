@@ -1,41 +1,32 @@
 "use client";
 
 import { motion } from "framer-motion";
-import CountUp from "react-countup";
 import { CalendarHeart, Star, Users, Music } from "lucide-react";
 
-const stats = [
+const serviceHighlights = [
   {
     id: 1,
     icon: CalendarHeart,
-    end: 45,
-    suffix: "+",
-    label: "Years of Legacy",
-    description: "Generations of musical excellence",
+    title: "Wedding Band",
+    description: "Live wedding band and brass band options for baraat processions.",
   },
   {
     id: 2,
-    icon: Star,
-    end: 250,
-    suffix: "+",
-    label: "Five Star Reviews",
-    description: "Consistently rated highest in Agra",
+    icon: Music,
+    title: "Dhol & Live Music",
+    description: "Punjabi Dhol, Nashik Dhol, shehnai and live band services.",
   },
   {
     id: 3,
     icon: Users,
-    end: 5000,
-    suffix: "+",
-    label: "Happy Families",
-    description: "Trusted for life's biggest moments",
+    title: "Baraat Entertainment",
+    description: "DJ on Wheels and other entertainment options to discuss for your event.",
   },
   {
     id: 4,
-    icon: Music,
-    end: 10000,
-    suffix: "+",
-    label: "Performances",
-    description: "Flawless executions across India",
+    icon: Star,
+    title: "Wedding Arrangements",
+    description: "Ask about ghori, baggi, vintage cars and wedding decoration.",
   },
 ];
 
@@ -74,11 +65,11 @@ export default function TrustSection() {
           viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8"
         >
-          {stats.map((stat, index) => {
-            const Icon = stat.icon;
+          {serviceHighlights.map((item) => {
+            const Icon = item.icon;
             return (
               <motion.div
-                key={stat.id}
+                key={item.id}
                 variants={itemVariants}
                 className="flex flex-col items-center text-center group"
               >
@@ -87,24 +78,11 @@ export default function TrustSection() {
                   <Icon strokeWidth={1.5} className="w-8 h-8" />
                 </div>
 
-                {/* Animated Number */}
-                <div className="font-heading text-5xl md:text-6xl font-light text-foreground mb-2 tracking-tight">
-                  <CountUp
-                    end={stat.end}
-                    duration={3}
-                    enableScrollSpy
-                    scrollSpyOnce
-                    scrollSpyDelay={index * 150} // Staggered start times
-                  />
-                  <span className="text-gold ml-1">{stat.suffix}</span>
-                </div>
-
-                {/* Labels */}
                 <h3 className="font-subheading text-lg font-semibold tracking-widest uppercase mb-2 text-foreground/90">
-                  {stat.label}
+                  {item.title}
                 </h3>
                 <p className="font-sans text-sm text-foreground/60 max-w-[200px]">
-                  {stat.description}
+                  {item.description}
                 </p>
 
                 {/* Decorative Divider */}

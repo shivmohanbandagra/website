@@ -2,13 +2,18 @@ import Link from "next/link";
 import { Phone, MessageCircle, MapPin, Clock, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "About Shiv Mohan Band and Events — Our Legacy Since 1980 | Agra",
-  description: "Learn about Shiv Mohan Band and Events — Agra's trusted wedding band since 1980. Our history, legacy, services and commitment to making every baraat a royal celebration.",
+  title: "About Shiv Mohan Band & Events | Agra Wedding Entertainment",
+  description: "Learn about Shiv Mohan Band & Events, its listed wedding band and baraat services in Agra, and how to get in touch about your event.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/about/" },
   openGraph: {
-    title: "About Shiv Mohan Band — Our Legacy Since 1980 | Agra",
-    description: "Shiv Mohan Band and Events has been creating unforgettable wedding baraats in Agra since 1980. Discover our story.",
+    title: "About Shiv Mohan Band & Events | Agra",
+    description: "Learn about the wedding band, live music and baraat services listed by Shiv Mohan Band & Events in Agra.",
     url: "https://www.shivmohanbandagra.com/about/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Shiv Mohan Band & Events | Agra",
+    description: "Learn about the wedding band and baraat services listed by Shiv Mohan Band & Events.",
   },
 };
 
@@ -47,14 +52,14 @@ export default function AboutPage() {
         <section className="editorial-hero bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-20 px-6 text-center border-b border-gold/10">
           <div className="max-w-4xl mx-auto">
             <div className="inline-block mb-6 px-5 py-2 rounded-full border border-gold/30 bg-white/5 backdrop-blur-md">
-              <span className="font-subheading text-gold tracking-widest text-xs uppercase">Trusted Since 1980</span>
+              <span className="font-subheading text-gold tracking-widest text-xs uppercase">Agra Wedding Entertainment</span>
             </div>
             <h1 className="font-heading text-4xl md:text-6xl text-ivory mb-6">
               Shiv Mohan Band and Events<br />
-              <span className="text-gold italic">Our Legacy Since 1980</span>
+              <span className="text-gold italic">Wedding Band &amp; Baraat Services</span>
             </h1>
             <p className="font-sans text-ivory/70 max-w-2xl mx-auto font-light leading-relaxed text-lg">
-              For over 45 years, Shiv Mohan Band and Events has been the most trusted name for wedding bands, baraat entertainment and royal wedding experiences in Agra, Uttar Pradesh. We are more than a wedding band — we are a tradition.
+              Shiv Mohan Band &amp; Events is based in Agra and lists wedding band, live music and baraat services for local celebrations. Contact the team to discuss your event requirements and confirm current availability.
             </p>
           </div>
         </section>
@@ -67,28 +72,29 @@ export default function AboutPage() {
               <h2 className="font-heading text-3xl text-ivory mb-6">A Legacy Built on Music, Trust & Royal Celebrations</h2>
               <div className="space-y-4 font-sans text-ivory/75 leading-relaxed">
                 <p>
-                  Shiv Mohan Band and Events was founded in 1980 in Agra, Uttar Pradesh. What began as a small wedding band has grown into one of Agra's most recognized and trusted names for wedding baraat entertainment, serving hundreds of families across the region over more than four decades.
+                  The business lists wedding band and baraat entertainment services in Agra, including brass band, Punjabi and Nashik Dhol, shehnai and DJ on Wheels. Families can ask about individual services or whether a combined arrangement is available for their date.
                 </p>
                 <p>
-                  Our team of experienced musicians, performers and event specialists have dedicated themselves to one goal: making every baraat a royal, unforgettable celebration. From the thundering beats of Punjabi Dhol and Nashik Dhol to the soul-stirring melody of shehnai, every performance is crafted with passion and professionalism.
+                  A baraat plan can include live musicians, percussion or recorded music. The suitable combination depends on the procession route, schedule, venue and the music the family wants.
                 </p>
                 <p>
-                  We have been trusted by generations of Agra families — parents who booked us for their own weddings have returned to book us for their children's weddings. That continuity of trust is our greatest achievement.
+                  Ask for a written quote showing the performers, event duration, travel or setup costs and booking terms. Reviewing these details makes it easier to compare providers on the same requirements.
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { number: "45+", label: "Years of Experience" },
-                { number: "250+", label: "Google Reviews" },
-                { number: "4.9★", label: "Average Rating" },
-                { number: "12+", label: "Services Offered" },
-              ].map((stat) => (
-                <div key={stat.label} className="p-6 bg-charcoal/40 border border-gold/20 rounded-sm text-center">
-                  <div className="font-heading text-3xl text-gold mb-2">{stat.number}</div>
-                  <div className="font-sans text-ivory/60 text-sm">{stat.label}</div>
-                </div>
-              ))}
+            <div className="space-y-4">
+              <div className="border border-gold/20 bg-charcoal/40 p-6">
+                <h3 className="mb-2 font-heading text-xl text-ivory">Music options</h3>
+                <p className="font-sans text-sm leading-relaxed text-ivory/65">Wedding band, brass band, Dhol, shehnai and live band services are listed for Agra events.</p>
+              </div>
+              <div className="border border-gold/20 bg-charcoal/40 p-6">
+                <h3 className="mb-2 font-heading text-xl text-ivory">Baraat arrangements</h3>
+                <p className="font-sans text-sm leading-relaxed text-ivory/65">Ask about DJ on Wheels, Ghori, Baggi, vintage cars and decoration for your event.</p>
+              </div>
+              <div className="border border-gold/20 bg-charcoal/40 p-6">
+                <h3 className="mb-2 font-heading text-xl text-ivory">Booking information</h3>
+                <p className="font-sans text-sm leading-relaxed text-ivory/65">Confirm availability, the service lineup, route, timing and full quote before booking.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -105,10 +111,6 @@ export default function AboutPage() {
               <div className="flex flex-col gap-2">
                 <span className="font-subheading text-gold tracking-widest uppercase text-xs">Type</span>
                 <span className="font-sans text-ivory">Wedding Band / Entertainment Service</span>
-              </div>
-              <div className="flex flex-col gap-2">
-                <span className="font-subheading text-gold tracking-widest uppercase text-xs">Established</span>
-                <span className="font-sans text-ivory">1980</span>
               </div>
               <div className="flex flex-col gap-2">
                 <span className="font-subheading text-gold tracking-widest uppercase text-xs">Location</span>

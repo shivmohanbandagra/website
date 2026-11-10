@@ -3,14 +3,14 @@ import ServicePageLayout from "@/components/service-page-layout";
 export const metadata = {
   title: "Wedding Band in Agra | Shiv Mohan Band and Events",
   description:
-    "Shiv Mohan Band and Events — Agra's most trusted wedding band for royal baraats. Live brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai & complete baraat services in Agra since 1980. Book your date today.",
+    "Wedding band services in Agra, including brass band, Punjabi and Nashik Dhol, DJ, shehnai and baraat arrangements. Contact Shiv Mohan Band to ask about your date.",
   alternates: {
     canonical: "https://www.shivmohanbandagra.com/wedding-band-agra/",
   },
   openGraph: {
     title: "Wedding Band in Agra | Shiv Mohan Band and Events",
     description:
-      "Agra's most trusted wedding band since 1980. Complete baraat services — brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai, vintage cars & royal baraat arrangements in Agra.",
+      "Explore wedding band, brass band, Dhol, DJ, shehnai and baraat arrangements in Agra. Contact Shiv Mohan Band to ask about availability.",
     url: "https://www.shivmohanbandagra.com/wedding-band-agra/",
   },
 };
@@ -111,8 +111,8 @@ export default function WeddingBandAgraPage() {
       <ServicePageLayout
         title="Wedding Band in Agra"
         subtitle="Royal Baraat & Celebrations"
-        heroLabel="Agra's Most Trusted Wedding Band Since 1980"
-        description="Shiv Mohan Band and Events is Agra's most trusted wedding band, providing live brass band, Punjabi Dhol, Nashik Dhol, shehnai, DJ and complete royal baraat entertainment. Trusted by 250+ families across Agra since 1980."
+        heroLabel="Wedding Band & Baraat Services in Agra"
+        description="Shiv Mohan Band and Events lists live brass band, Punjabi Dhol, Nashik Dhol, shehnai, DJ and baraat services in Agra. Contact the team to confirm availability and request a quote."
         service="wedding band"
         breadcrumbs={[{ label: "Wedding Band in Agra", href: "/wedding-band-agra/" }]}
         features={[
@@ -149,12 +149,12 @@ export default function WeddingBandAgraPage() {
         ]}
         whyChooseItems={[
           {
-            title: "Over 45 Years of Experience",
-            description: "Shiv Mohan Band has been serving weddings in Agra since 1980 — trusted by multiple generations of families.",
+            title: "Agra Wedding Band",
+            description: "Ask about the available performers, event timings and service arrangements for your wedding date.",
           },
           {
-            title: "4.9★ Google Rating with 250+ Reviews",
-            description: "One of Agra's highest-rated wedding bands, trusted and verified by hundreds of real families.",
+            title: "Review Public Feedback",
+            description: "Read recent customer feedback on public profiles and consider whether it reflects the service you need.",
           },
           {
             title: "Complete Baraat Package",

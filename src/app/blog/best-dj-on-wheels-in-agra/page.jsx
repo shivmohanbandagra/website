@@ -14,12 +14,12 @@ const canonicalUrl =
   "https://www.shivmohanbandagra.com/blog/best-dj-on-wheels-in-agra/";
 
 export const metadata = {
-  title: "Best DJ on Wheels in Agra | Baraat DJ Booking Guide",
+  title: "DJ on Wheels in Agra: Baraat Booking Guide | Shiv Mohan Band",
   description:
-    "Find the best DJ on wheels in Agra for your baraat. Compare sound, playlist, setup and coordination, and learn how to plan a DJ with dhol or a live band.",
+    "A practical guide to booking DJ on Wheels in Agra for a baraat. Compare sound, playlist, setup and procession coordination, with tips for combining a DJ with Dhol or a live band.",
   alternates: { canonical: canonicalUrl },
   openGraph: {
-    title: "How to Choose the Best DJ on Wheels in Agra",
+    title: "DJ on Wheels in Agra: Baraat Setup and Booking Guide",
     description:
       "A practical guide to choosing a baraat DJ in Agra, from the mobile setup and sound system to music and procession coordination.",
     url: canonicalUrl,
@@ -30,7 +30,7 @@ export const metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "How to Choose the Best DJ on Wheels in Agra for Your Baraat",
+  headline: "DJ on Wheels in Agra: How to Plan a Baraat Setup",
   description:
     "A practical guide to comparing DJ on wheels services in Agra, including the mobile setup, sound, playlist and coordination with other baraat performers.",
   author: {
@@ -112,7 +112,7 @@ export default function BestDjOnWheelsAgraPage() {
               </li>
               <li className="flex items-center gap-2">
                 <span aria-hidden="true">/</span>
-                <span className="text-gold">Best DJ on Wheels in Agra</span>
+                <span className="text-gold">DJ on Wheels in Agra</span>
               </li>
             </ol>
           </div>
@@ -124,7 +124,7 @@ export default function BestDjOnWheelsAgraPage() {
               Service Guide
             </span>
             <h1 className="mb-4 font-heading text-[clamp(2rem,7vw,3.5rem)] leading-tight text-ivory">
-              How to Choose the Best DJ on Wheels in Agra
+              DJ on Wheels in Agra: Baraat Booking Guide
             </h1>
             <p className="font-sans font-light leading-relaxed text-ivory/70">
               A practical guide to choosing baraat music, sound and setup for

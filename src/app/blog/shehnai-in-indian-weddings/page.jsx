@@ -69,7 +69,7 @@ export default function ShehnaiInWeddingsPage() {
               In Hindu tradition, shehnai is considered <em>mangalkar</em> — a creator of auspiciousness. Its music is believed to invite divine blessings, ward off evil spirits and create a sacred atmosphere for important ceremonies. The shehnai was traditionally played at temple entrances, royal courts and important religious celebrations.
             </p>
             <p>
-              The great shehnai maestro Ustad Bismillah Khan, who was awarded the Bharat Ratna in 2001, popularized the shehnai on the world stage. His devotion to Goddess Saraswati and his commitment to performing at Varanasi's Vishwanath temple reinforced the instrument's divine associations in the public imagination.
+              The great shehnai maestro Ustad Bismillah Khan, who was awarded the Bharat Ratna in 2001, popularized the shehnai on the world stage. His devotion to Goddess Saraswati and his commitment to performing at Varanasi&apos;s Vishwanath temple reinforced the instrument&apos;s divine associations in the public imagination.
             </p>
           </section>
 

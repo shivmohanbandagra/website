@@ -1,13 +1,28 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Wedding Band Blog — Tips, Guides & Inspiration | Shiv Mohan Band Agra",
-  description: "Wedding band tips, baraat planning guides, dhol vs DJ comparisons and wedding entertainment inspiration from Shiv Mohan Band and Events, Agra's trusted wedding band since 1980.",
+  title: "Agra Wedding Band Blog: Baraat & Music Guides",
+  description: "Read practical guides to wedding bands, baraat planning, Dhol, DJ bookings and wedding entertainment for celebrations in Agra.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/blog/" },
   openGraph: {
-    title: "Wedding Band Blog — Shiv Mohan Band and Events Agra",
+    title: "Agra Wedding Band Blog: Baraat & Music Guides",
+    description: "Practical guides to wedding bands, baraat planning, Dhol, DJ bookings and wedding entertainment in Agra.",
     url: "https://www.shivmohanbandagra.com/blog/",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Agra Wedding Band Blog: Baraat & Music Guides",
+    description: "Practical guides to wedding bands, baraat planning, Dhol and DJ bookings in Agra.",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.shivmohanbandagra.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.shivmohanbandagra.com/blog/" },
+  ],
 };
 
 const posts = [
@@ -53,20 +68,35 @@ const posts = [
     category: "Planning Guide",
     date: "July 2026",
   },
+  {
+    slug: "dj-on-wheels-in-agra",
+    title: "DJ on Wheels in Agra: A Guide to Planning Your Baraat",
+    excerpt: "Learn how a mobile DJ setup works, what to confirm about sound and route planning, and how to coordinate a DJ with live Dhol or band.",
+    category: "Baraat Planning Guide",
+    date: "November 2026",
+  },
+  {
+    slug: "why-shiv-mohan-band-is-one-of-the-best-wedding-bands-in-agra",
+    title: "Wedding Band Services in Agra: A Guide to Shiv Mohan Band & Events",
+    excerpt: "Review listed baraat services and practical questions to ask about availability, lineup, route planning and booking terms.",
+    category: "Local Service Guide",
+    date: "November 2026",
+  },
 ];
 
 export default function BlogIndexPage() {
   return (
-    <div className="bg-background text-foreground min-h-screen">
-      {/* Breadcrumb */}
-      {/* <nav className="bg-charcoal/50 border-b border-gold/10 px-6 py-3">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <div className="bg-background text-foreground min-h-screen">
+      <nav className="bg-charcoal/50 border-b border-gold/10 px-6 py-3" aria-label="Breadcrumb">
         <div className="max-w-5xl mx-auto">
           <ol className="flex items-center gap-2 font-sans text-sm text-ivory/50">
             <li><Link href="/" className="hover:text-gold transition-colors">Home</Link></li>
             <li className="flex items-center gap-2"><span>/</span><span className="text-gold">Blog</span></li>
           </ol>
         </div>
-      </nav> */}
+      </nav>
 
       {/* Hero */}
       <section className="editorial-hero bg-gradient-to-br from-charcoal via-charcoal to-maroon/20 py-16 px-6 text-center border-b border-gold/10">
@@ -101,6 +131,7 @@ export default function BlogIndexPage() {
           ))}
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

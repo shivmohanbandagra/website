@@ -3,11 +3,11 @@ import ServicePageLayout from "@/components/service-page-layout";
 export const metadata = {
   title: "Nashik Dhol in Agra | Shiv Mohan Band and Events",
   description:
-    "Traditional Nashik Dhol for weddings and baraats in Agra. Shiv Mohan Band and Events provides powerful Nashik Dhol group performances for wedding processions and celebrations in Agra since 1980.",
+    "Nashik Dhol performances for weddings and baraats in Agra. Contact Shiv Mohan Band and Events to discuss the group setup and availability.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/nashik-dhol-agra/" },
   openGraph: {
     title: "Nashik Dhol in Agra | Shiv Mohan Band and Events",
-    description: "Powerful Nashik Dhol group performance for wedding baraats in Agra. Book Shiv Mohan Band — trusted since 1980.",
+    description: "Ask Shiv Mohan Band about Nashik Dhol group performances for your wedding baraat in Agra.",
     url: "https://www.shivmohanbandagra.com/nashik-dhol-agra/",
   },
 };

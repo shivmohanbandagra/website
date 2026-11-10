@@ -2,7 +2,7 @@ import ServicePageLayout from "@/components/service-page-layout";
 
 export const metadata = {
   title: "Dhol Player in Agra | Shiv Mohan Band and Events",
-  description: "Professional dhol players in Agra for wedding baraats and celebrations. Shiv Mohan Band and Events provides expert dhol players for wedding processions across Agra since 1980.",
+  description: "Dhol players for wedding baraats and celebrations in Agra. Contact Shiv Mohan Band and Events to discuss the setup and your event date.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/dhol-player-agra/" },
   openGraph: { title: "Dhol Player in Agra | Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com/dhol-player-agra/" },
 };
@@ -48,7 +48,7 @@ export default function DholPlayerAgraPage() {
           { title: "Both Punjabi & Nashik Dhol Available", description: "Choose from Punjabi Dhol or Nashik Dhol groups based on your baraat style and preferences." },
           { title: "Experienced Performers", description: "Our dhol players have years of experience at weddings and baraats across Agra." },
           { title: "Flexible Packages", description: "Book dhol players alone or as part of a complete baraat package with band, DJ and other services." },
-          { title: "Trusted Since 1980", description: "Shiv Mohan Band has been providing dhol players for weddings in Agra since 1980." },
+          { title: "Dhol for Baraats", description: "Ask about available performers, timing and coordination with a band or DJ." },
         ]}
         faqs={[
           { q: "How do I book a dhol player in Agra?", a: "Contact Shiv Mohan Band and Events on WhatsApp at +91 94575 00318 or call us. Share your wedding date, venue and requirements, and we will confirm availability and pricing." },

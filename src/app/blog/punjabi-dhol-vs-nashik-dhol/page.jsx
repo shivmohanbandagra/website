@@ -61,7 +61,7 @@ export default function PunjabiVsNashikDholPage() {
 
         <article className="py-16 px-6 max-w-3xl mx-auto space-y-10">
           <p className="font-sans text-ivory/80 text-lg leading-relaxed">
-            One of the most common questions wedding planners and families ask Shiv Mohan Band is: <em>"Should we book Punjabi Dhol or Nashik Dhol for our baraat?"</em> Both are excellent — but they're very different experiences. Here's the complete guide to help you choose.
+            One of the most common questions wedding planners and families ask Shiv Mohan Band is: <em>&quot;Should we book Punjabi Dhol or Nashik Dhol for our baraat?&quot;</em> Both are excellent — but they&apos;re very different experiences. Here&apos;s the complete guide to help you choose.
           </p>
 
           <section>

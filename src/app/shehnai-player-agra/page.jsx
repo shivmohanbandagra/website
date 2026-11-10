@@ -2,7 +2,7 @@ import ServicePageLayout from "@/components/service-page-layout";
 
 export const metadata = {
   title: "Shehnai Player in Agra | Shiv Mohan Band and Events",
-  description: "Classical shehnai player in Agra for wedding ceremonies and celebrations. Shiv Mohan Band and Events provides professional shehnai players for traditional Hindu wedding ceremonies in Agra since 1980.",
+  description: "Shehnai music for wedding ceremonies and celebrations in Agra. Contact Shiv Mohan Band and Events to ask about availability and event arrangements.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/shehnai-player-agra/" },
   openGraph: { title: "Shehnai Player in Agra | Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com/shehnai-player-agra/" },
 };
@@ -48,7 +48,7 @@ export default function ShehnaiPlayerAgraPage() {
           { title: "Professional Shehnai Players", description: "Our shehnai players are experienced musicians with expertise in traditional wedding ragas and ceremonial compositions." },
           { title: "Auspicious Tradition", description: "Shehnai has been an integral part of Indian weddings for generations — we carry this tradition forward with authenticity." },
           { title: "Part of Complete Baraat Package", description: "Book shehnai as a standalone service or as part of your complete baraat package with band, dhol and DJ." },
-          { title: "45+ Years Experience", description: "Shiv Mohan Band has been providing shehnai and live music for weddings in Agra since 1980." },
+          { title: "Shehnai for Wedding Events", description: "Discuss the ceremony schedule, performance duration and musical requirements in advance." },
         ]}
         faqs={[
           { q: "What is shehnai and why is it played at weddings?", a: "Shehnai is a traditional Indian wind instrument with a rich, melodic sound considered auspicious for weddings. Its soulful notes create a spiritual and ceremonial atmosphere, making it a cherished tradition at Hindu weddings — played during rituals, baraat arrival and festive moments." },

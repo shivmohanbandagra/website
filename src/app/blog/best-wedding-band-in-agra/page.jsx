@@ -2,11 +2,11 @@ import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 
 export const metadata = {
-  title: "How to Choose the Best Wedding Band in Agra — 5 Key Factors",
-  description: "5 key factors to consider when choosing a wedding band in Agra — experience, reviews, service range, availability and customization. Expert advice from Shiv Mohan Band and Events.",
+  title: "How to Choose a Wedding Band in Agra | 5 Booking Factors",
+  description: "Five practical factors to compare when choosing a wedding band in Agra: event experience, public feedback, service options, date availability and booking flexibility.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/blog/best-wedding-band-in-agra/" },
   openGraph: {
-    title: "How to Choose the Best Wedding Band in Agra",
+    title: "How to Choose a Wedding Band in Agra: 5 Booking Factors",
     url: "https://www.shivmohanbandagra.com/blog/best-wedding-band-in-agra/",
   },
 };
@@ -14,8 +14,8 @@ export const metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "How to Choose the Best Wedding Band in Agra for Your Baraat",
-  description: "5 key factors to evaluate when choosing the best wedding band in Agra — experience, reviews, service range, availability and customization.",
+  headline: "How to Choose a Wedding Band in Agra: 5 Booking Factors",
+  description: "Five practical factors to compare when choosing a wedding band in Agra: event experience, public feedback, service options, date availability and booking flexibility.",
   author: { "@type": "Organization", name: "Shiv Mohan Band and Events" },
   publisher: { "@type": "Organization", name: "Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.shivmohanbandagra.com/blog/best-wedding-band-in-agra/" },
@@ -26,31 +26,31 @@ const factors = [
   {
     num: "01",
     title: "Experience & Track Record",
-    body: "Look for a wedding band in Agra with a proven, long-standing track record. How many years have they been in business? Have they performed at weddings across Agra? A band that has been serving Agra families for decades — like Shiv Mohan Band since 1980 — has the experience to handle any situation, any venue and any family preference.",
+    body: "Ask each wedding band how long it has performed in Agra and whether it can share relevant, recent event examples. Confirm how the proposed ensemble and route plan fit your venue and family preferences rather than relying on a general claim of experience.",
     tip: "Ask: How many years have you been performing in Agra? Can you share references from recent weddings?",
   },
   {
     num: "02",
     title: "Google Reviews & Ratings",
-    body: "Before booking any wedding band in Agra, check their Google Business Profile reviews. Look for: overall star rating (4.5+ is excellent), number of reviews (more reviews = more trust), recency of reviews, and specific mentions of the band's performance and professionalism. Shiv Mohan Band has 250+ Google reviews with a 4.9★ rating.",
+    body: "Read recent reviews on each provider's public profile. Look for detailed comments about the service, communication and event-day coordination you need, and consider how recent and relevant the feedback is.",
     tip: "Check Google Maps reviews for 'Shiv Mohan Band Agra' to see genuine customer feedback.",
   },
   {
     num: "03",
     title: "Range of Services",
-    body: "The best wedding bands in Agra offer a complete range of baraat services under one roof — wedding band, brass band, Punjabi Dhol, Nashik Dhol, shehnai, DJ on wheels, ghori, baggi, vintage cars and baraat decoration. Booking everything from one trusted vendor simplifies coordination and reduces risk.",
+    body: "Services vary by provider. Ask whether you can book brass band, Punjabi Dhol, Nashik Dhol, shehnai, DJ on wheels, ghori, baggi, vintage cars or baraat decoration together, and clarify which team is responsible for coordinating them.",
     tip: "Ask for a complete service list and whether all services can be combined in one package.",
   },
   {
     num: "04",
     title: "Availability for Your Date",
-    body: "The best wedding bands in Agra book up quickly — especially during peak wedding season (November to February and May to June). After shortlisting your options, check availability for your specific date immediately. Availability is often the deciding factor during peak season.",
-    tip: "Book 3–6 months in advance. During peak season, good bands book up even earlier.",
+    body: "Availability depends on the provider and your date. Contact shortlisted providers early, particularly for popular wedding dates, and ask whether a date hold or deposit is required.",
+    tip: "Share your event date, venue and expected timings when you first enquire.",
   },
   {
     num: "05",
     title: "Customization & Flexibility",
-    body: "Every wedding is different. The best wedding band for your baraat in Agra will listen to your preferences, accommodate song requests, work with your timeline and customize the package based on your needs and budget. Ask whether they can create a custom package combining exactly the services you need.",
+    body: "Every wedding is different. Ask how the band handles song requests, event timing and package changes, and confirm any agreed customization in writing.",
     tip: "Ask: Can I customize my package? Can you perform specific song requests? How flexible are you with timing?",
   },
 ];
@@ -65,7 +65,7 @@ export default function BestWeddingBandAgraPage() {
             <ol className="flex flex-wrap items-center gap-2 font-sans text-sm text-ivory/50">
               <li><Link href="/" className="hover:text-gold transition-colors">Home</Link></li>
               <li className="flex items-center gap-2"><span>/</span><Link href="/blog/" className="hover:text-gold transition-colors">Blog</Link></li>
-              <li className="flex items-center gap-2"><span>/</span><span className="text-gold">Best Wedding Band in Agra</span></li>
+              <li className="flex items-center gap-2"><span>/</span><span className="text-gold">Choosing a Wedding Band</span></li>
             </ol>
           </div>
         </nav>
@@ -74,7 +74,7 @@ export default function BestWeddingBandAgraPage() {
           <div className="max-w-3xl mx-auto">
             <span className="font-subheading text-gold tracking-widest uppercase text-xs px-3 py-1 border border-gold/30 rounded-full inline-block mb-6">Tips</span>
             <h1 className="font-heading text-3xl md:text-5xl text-ivory mb-4 leading-tight">
-              How to Choose the Best Wedding Band in Agra
+              How to Choose a Wedding Band in Agra
             </h1>
             <p className="font-sans text-ivory/70 font-light">5 key factors — from the experts at Shiv Mohan Band and Events, Agra</p>
           </div>
@@ -82,7 +82,7 @@ export default function BestWeddingBandAgraPage() {
 
         <article className="py-16 px-6 max-w-3xl mx-auto space-y-8">
           <p className="font-sans text-ivory/80 text-lg leading-relaxed">
-            Choosing the right wedding band for your baraat in Agra is one of the most important wedding decisions you'll make. The band sets the energy, atmosphere and memories of the baraat procession. Here are the 5 key factors to evaluate before booking.
+            Choosing the right wedding band for your baraat in Agra is one of the most important wedding decisions you&apos;ll make. The band sets the energy, atmosphere and memories of the baraat procession. Here are the 5 key factors to evaluate before booking.
           </p>
 
           <div className="space-y-6">
@@ -104,8 +104,8 @@ export default function BestWeddingBandAgraPage() {
 
           <div className="p-8 bg-charcoal/30 border border-gold/20 rounded-sm text-center">
             <h2 className="font-heading text-2xl text-ivory mb-3">Why Choose Shiv Mohan Band?</h2>
-            <p className="font-sans text-ivory/70 mb-6">Shiv Mohan Band and Events checks all 5 boxes: 45+ years experience, 250+ 5-star Google reviews, complete range of baraat services, quick availability confirmation, and fully customizable packages. Based in Agra since 1980.</p>
-            <a href="https://wa.me/919457500318?text=Hello!%20I%20want%20to%20book%20the%20best%20wedding%20band%20in%20Agra%20for%20my%20wedding." target="_blank" rel="noopener noreferrer" id="best-band-blog-cta" className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm hover:bg-ivory transition-colors font-semibold">
+            <p className="font-sans text-ivory/70 mb-6">Shiv Mohan Band and Events lists wedding band, brass band, Dhol, DJ and other baraat services in Agra. Ask about current availability, the proposed lineup and written booking terms to decide whether the service fits your event.</p>
+            <a href="https://wa.me/919457500318?text=Hello!%20I%20want%20to%20enquire%20about%20wedding%20band%20services%20in%20Agra." target="_blank" rel="noopener noreferrer" id="best-band-blog-cta" className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm hover:bg-ivory transition-colors font-semibold">
               <MessageCircle className="w-4 h-4" /> Check Availability Now
             </a>
           </div>

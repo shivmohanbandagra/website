@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, MessageCircle, Star } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
 import ReviewDirectoryLinks from "@/components/review-directory-links";
 
 export default function Hero() {
@@ -54,15 +54,8 @@ export default function Hero() {
             Shiv Mohan Band &amp; Events is a wedding band and baraat
             entertainment service based in Agra, providing wedding bands,
             brass bands, Punjabi Dhol, Nashik Dhol, DJ services, shehnai,
-            vintage cars and royal baraat arrangements since 1980.
-          </p>
-
-          <p className="mb-7 flex items-center justify-center gap-2 font-sans text-xs font-medium tracking-wide text-ivory/70 sm:mb-8 sm:text-sm lg:justify-start">
-            <Star
-              className="h-4 w-4 shrink-0 fill-gold text-gold"
-              aria-hidden="true"
-            />
-            Trusted by 650+ families across Agra &bull; 4.6★ Google Rating
+            vintage cars and baraat arrangements. Ask us about availability for
+            your date.
           </p>
 
           <ReviewDirectoryLinks className="mb-7 flex flex-wrap items-center justify-center gap-2.5 sm:mb-8 lg:justify-start" />

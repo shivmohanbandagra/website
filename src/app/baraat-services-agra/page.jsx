@@ -3,11 +3,11 @@ import ServicePageLayout from "@/components/service-page-layout";
 export const metadata = {
   title: "Baraat Services in Agra | Complete Baraat Package | Shiv Mohan Band",
   description:
-    "Complete baraat services in Agra. Shiv Mohan Band and Events provides wedding band, brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai, ghori, baggi, vintage cars and full baraat entertainment in Agra since 1980.",
+    "Plan a baraat in Agra with wedding band, brass band, Punjabi or Nashik Dhol, DJ, shehnai and other listed services. Contact Shiv Mohan Band to check availability.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/baraat-services-agra/" },
   openGraph: {
     title: "Baraat Services in Agra | Shiv Mohan Band and Events",
-    description: "Complete baraat entertainment in Agra — band, dhol, DJ, ghori, baggi, vintage cars and more. Shiv Mohan Band since 1980.",
+    description: "Explore baraat entertainment in Agra, including band, Dhol, DJ, Ghori, Baggi and vintage cars. Ask about services for your event.",
     url: "https://www.shivmohanbandagra.com/baraat-services-agra/",
   },
 };
@@ -42,7 +42,7 @@ export default function BaraatServicesAgraPage() {
         title="Baraat Services in Agra"
         subtitle="Complete Royal Baraat Entertainment"
         heroLabel="One-Stop Baraat Services — Shiv Mohan Band Agra"
-        description="Shiv Mohan Band and Events is Agra's one-stop destination for complete baraat services. From the wedding band and dhol to the groom's ghori, baggi and vintage car — we handle every element of your royal baraat procession with 45+ years of experience."
+        description="Shiv Mohan Band and Events lists wedding band, Dhol, DJ, Ghori, Baggi and vintage car arrangements for baraats in Agra. Contact the team to confirm which services are available for your event."
         service="baraat"
         breadcrumbs={[{ label: "Baraat Services in Agra", href: "/baraat-services-agra/" }]}
         features={[
@@ -57,11 +57,11 @@ export default function BaraatServicesAgraPage() {
         ]}
         whyChooseItems={[
           { title: "Complete One-Stop Service", description: "Book every element of your baraat from a single trusted source — band, dhol, DJ, ghori, baggi, vintage cars and decoration." },
-          { title: "45+ Years of Baraat Expertise", description: "Shiv Mohan Band has organized hundreds of baraats across Agra since 1980. We know exactly what makes a baraat memorable." },
+          { title: "Baraat Service Options", description: "Ask which performers and arrangements are available for your date, venue and procession route." },
           { title: "Fully Customizable Packages", description: "Build your baraat package based on your vision, venue and budget. No rigid fixed packages." },
           { title: "All Agra Areas Covered", description: "Serving all areas of Agra — Bodla, Sikandra, Tajganj, Shahganj, Sadar, Dayal Bagh, Agra Cantt and surrounding areas." },
           { title: "Professional Coordination", description: "Our experienced team coordinates all elements of the baraat to ensure everything runs smoothly and on time." },
-          { title: "4.9★ Rating from 250+ Families", description: "One of Agra's highest-rated wedding and baraat service providers, trusted by hundreds of families." },
+          { title: "Check Public Feedback", description: "Review recent feedback on the business's public profiles and ask questions about the services you plan to book." },
         ]}
         faqs={[
           { q: "What is included in a baraat package in Agra?", a: "A complete baraat package from Shiv Mohan Band can include: live wedding band, brass band, Punjabi Dhol, Nashik Dhol, shehnai, DJ on wheels, ghori (decorated horse), baggi (horse carriage), vintage cars, decorative lighting and flower chattar. You can customize the combination based on your preferences." },

@@ -69,7 +69,7 @@ export default function Navbar() {
               SHIV MOHAN
             </span>
             <span className="font-subheading text-gold text-[7px] sm:text-[8px] lg:text-[9px] tracking-[0.25em] uppercase mt-0.5 whitespace-nowrap">
-              Band &amp; Events — Since 1980
+              Band &amp; Events
             </span>
           </div>
         </Link>

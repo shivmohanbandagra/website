@@ -31,15 +31,14 @@ import TrustSection from "@/components/trust-section";
 const ServicesSection = dynamic(() => import("@/components/services"), { ssr: true });
 const FeaturedGallery = dynamic(() => import("@/components/gallery"), { ssr: true });
 const ExperienceTimeline = dynamic(() => import("@/components/timeline"), { ssr: true });
-const GoogleReviewsSection = dynamic(() => import("@/components/google-reviews-section"), { ssr: true });
 const ContactCTA = dynamic(() => import("@/components/contactcta"), { ssr: true });
 
 
 export const metadata = {
   metadataBase: new URL("https://www.shivmohanbandagra.com"),
-  title: "Best Wedding Band in Agra | Shiv Mohan Band and Events — Since 1980",
+  title: "Best Wedding Band in Agra | Shiv Mohan Band & Events",
   description:
-    "Shiv Mohan Band and Events — Agra's best wedding band since 1980. We provide wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, DJ on wheels, shehnai, ghori, baggi, vintage cars and complete royal baraat services in Agra. Book your baraat date now.",
+    "Book a wedding band in Agra with brass band, Punjabi or Nashik Dhol, DJ on Wheels and shehnai. Contact Shiv Mohan Band & Events to check your date.",
   keywords: [
     "wedding band in Agra",
     "best wedding band in Agra",
@@ -61,9 +60,9 @@ export const metadata = {
     canonical: "https://www.shivmohanbandagra.com/",
   },
   openGraph: {
-    title: "Wedding Band in Agra | Shiv Mohan Band and Events — Since 1980",
+    title: "Best Wedding Band in Agra | Shiv Mohan Band & Events",
     description:
-      "Agra's most trusted wedding band since 1980. Complete baraat services — brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai, vintage cars & royal baraat entertainment.",
+      "Explore wedding band, brass band, Punjabi and Nashik Dhol, DJ, shehnai and baraat services in Agra. Contact Shiv Mohan Band & Events to check your date.",
     url: "https://www.shivmohanbandagra.com",
     siteName: "Shiv Mohan Band and Events",
     images: [
@@ -71,7 +70,7 @@ export const metadata = {
         url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Shiv Mohan Band and Events — Wedding Band & Baraat Services in Agra since 1980",
+        alt: "Shiv Mohan Band & Events — Wedding Band and Baraat Services in Agra",
       },
     ],
     locale: "en_IN",
@@ -79,9 +78,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wedding Band in Agra | Shiv Mohan Band and Events",
+    title: "Best Wedding Band in Agra | Shiv Mohan Band & Events",
     description:
-      "Agra's most trusted wedding band — brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai & royal baraat services since 1980.",
+      "Wedding band, brass band, Punjabi and Nashik Dhol, DJ, shehnai and baraat services in Agra.",
     images: ["/images/og-image.png"],
   },
   robots: {
@@ -120,10 +119,6 @@ export default function Home() {
       <FeaturedGallery />
       <div id="timeline" ></div>
       <ExperienceTimeline />
-      {/* <Testimonials /> */}
-      <div id="testimonials" ></div>
-      <GoogleReviewsSection />
-      {/* <GoogleReviewsHighlight /> */}
       <div id="contact-us" ></div>
       <ContactCTA />
 

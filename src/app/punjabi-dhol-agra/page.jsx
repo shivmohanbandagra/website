@@ -3,11 +3,11 @@ import ServicePageLayout from "@/components/service-page-layout";
 export const metadata = {
   title: "Punjabi Dhol in Agra | Shiv Mohan Band and Events",
   description:
-    "High-energy Punjabi Dhol for weddings and baraats in Agra. Shiv Mohan Band and Events provides professional Punjabi Dhol players for wedding processions and baraat celebrations in Agra since 1980.",
+    "Punjabi Dhol for weddings and baraats in Agra. Contact Shiv Mohan Band and Events to discuss performers and event timing.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/punjabi-dhol-agra/" },
   openGraph: {
     title: "Punjabi Dhol in Agra | Shiv Mohan Band and Events",
-    description: "Professional Punjabi Dhol players for wedding baraats in Agra. Book Shiv Mohan Band — trusted since 1980.",
+    description: "Ask Shiv Mohan Band about Punjabi Dhol arrangements for your wedding baraat in Agra.",
     url: "https://www.shivmohanbandagra.com/punjabi-dhol-agra/",
   },
 };

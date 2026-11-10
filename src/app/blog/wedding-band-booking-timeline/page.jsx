@@ -81,13 +81,13 @@ export default function WeddingBandBookingTimelinePage() {
             <h1 className="font-heading text-3xl md:text-5xl text-ivory mb-4 leading-tight">
               When Should You Book a Wedding Band in Agra?
             </h1>
-            <p className="font-sans text-ivory/70 font-light">The complete booking timeline — by Shiv Mohan Band and Events, Agra since 1980</p>
+            <p className="font-sans text-ivory/70 font-light">A practical booking timeline for wedding entertainment in Agra</p>
           </div>
         </section>
 
         <article className="py-16 px-6 max-w-3xl mx-auto space-y-8 font-sans text-ivory/80 leading-relaxed">
           <p className="text-lg">
-            One of the most common mistakes families make when planning a wedding in Agra is booking their wedding band too late. Agra has many excellent wedding bands — but the best ones book up months in advance, especially during peak wedding season. Here's everything you need to know about when to book.
+            One of the most common mistakes families make when planning a wedding in Agra is booking their wedding band too late. Agra has many excellent wedding bands — but the best ones book up months in advance, especially during peak wedding season. Here&apos;s everything you need to know about when to book.
           </p>
 
           <section>
@@ -126,7 +126,7 @@ export default function WeddingBandBookingTimelinePage() {
                 </li>
               ))}
             </ul>
-            <p>The solution is simple: <strong className="text-ivory">book early, confirm your date, and secure your package</strong>. If your wedding date isn't fixed yet, reach out to discuss tentative availability and put your requirements on record.</p>
+            <p>The solution is simple: <strong className="text-ivory">book early, confirm your date, and secure your package</strong>. If your wedding date isn&apos;t fixed yet, reach out to discuss tentative availability and put your requirements on record.</p>
           </section>
 
           <section>
@@ -150,7 +150,7 @@ export default function WeddingBandBookingTimelinePage() {
 
           <div className="p-8 bg-charcoal/30 border border-gold/20 rounded-sm text-center">
             <h2 className="font-heading text-2xl text-ivory mb-3">Check Your Date Availability Now</h2>
-            <p className="text-ivory/70 mb-6">Don't wait. Check availability for your wedding date with Shiv Mohan Band and Events today. We respond quickly on WhatsApp.</p>
+            <p className="text-ivory/70 mb-6">Don&apos;t wait. Check availability for your wedding date with Shiv Mohan Band and Events today. We respond quickly on WhatsApp.</p>
             <a href="https://wa.me/919457500318?text=Hello!%20I%20want%20to%20check%20availability%20for%20my%20wedding%20date%20in%20Agra.%20Date%3A%20[your%20date]" target="_blank" rel="noopener noreferrer" id="timeline-blog-cta" className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm hover:bg-ivory transition-colors font-semibold">
               <MessageCircle className="w-4 h-4" /> Check Your Baraat Date
             </a>

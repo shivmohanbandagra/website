@@ -31,7 +31,7 @@ const steps = [
   {
     num: "02",
     title: "Book Your Wedding Band",
-    body: "Reach out to a trusted wedding band in Agra as early as possible — ideally 3–6 months in advance for peak wedding season (November–February, May–June). Shiv Mohan Band and Events has been providing wedding bands and baraat entertainment in Agra since 1980. WhatsApp or call us to check availability for your date.",
+    body: "Reach out to wedding band providers in Agra as early as possible — ideally 3–6 months in advance for peak wedding season (November–February, May–June). Share your event date and location, then compare the available services and written quotes.",
   },
   {
     num: "03",
@@ -86,13 +86,13 @@ export default function HowToPlanBaraatPage() {
             <h1 className="font-heading text-3xl md:text-5xl text-ivory mb-4 leading-tight">
               How to Plan the Perfect Baraat in Agra
             </h1>
-            <p className="font-sans text-ivory/70 font-light">Step-by-step guide by Shiv Mohan Band and Events, Agra — since 1980</p>
+            <p className="font-sans text-ivory/70 font-light">A step-by-step guide by Shiv Mohan Band and Events, Agra</p>
           </div>
         </section>
 
         <article className="py-16 px-6 max-w-3xl mx-auto">
           <p className="font-sans text-ivory/80 text-lg leading-relaxed mb-12">
-            A baraat is the groom's grand wedding procession — one of the most important and joyful moments of an Indian wedding. Planning a perfect baraat in Agra requires careful coordination of your wedding band, dhol, DJ, ghori, decoration and logistics. Here's our complete step-by-step guide based on 45+ years of experience.
+            A baraat is the groom&apos;s wedding procession. Planning one in Agra involves coordinating music, transport, decoration and timing. Use these steps to plan your route, compare providers and confirm event details in advance.
           </p>
 
           <div className="space-y-8">
@@ -109,7 +109,7 @@ export default function HowToPlanBaraatPage() {
 
           <div className="mt-12 p-8 bg-charcoal/30 border border-gold/20 rounded-sm text-center">
             <h2 className="font-heading text-2xl text-ivory mb-4">Plan Your Baraat with Shiv Mohan Band</h2>
-            <p className="font-sans text-ivory/70 mb-6">Shiv Mohan Band and Events has been planning and performing at wedding baraats in Agra since 1980. Contact us to check availability and build the perfect baraat package for your wedding.</p>
+            <p className="font-sans text-ivory/70 mb-6">Contact Shiv Mohan Band and Events to ask about baraat services, availability and a quote for your wedding date.</p>
             <a href="https://wa.me/919457500318?text=Hello!%20I%20want%20to%20plan%20my%20baraat%20in%20Agra.%20Can%20you%20help?" target="_blank" rel="noopener noreferrer" id="baraat-guide-cta-whatsapp" className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm hover:bg-ivory transition-colors font-semibold">
               <MessageCircle className="w-4 h-4" /> WhatsApp Us to Plan Your Baraat
             </a>

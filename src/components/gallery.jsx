@@ -514,10 +514,9 @@ function MarqueeRow({ items, direction = "left", duration = 40, onItemClick }) {
                   src={item.src}
                   muted
                   loop
-                  autoPlay
                   playsInline
-                  preload="metadata"
-                  className="w-full h-full object-cover"
+                  preload="none"
+                  className="w-full h-full bg-charcoal object-cover"
                 />
                 {/* Persistent play badge, always visible */}
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -642,7 +641,7 @@ export default function FeaturedGallery() {
                         muted
                         loop
                         playsInline
-                        preload="metadata"
+                        preload="none"
                         className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                         onMouseEnter={(e) => e.currentTarget.play()}
                         onMouseLeave={(e) => {

@@ -10,7 +10,6 @@
 // export const metadata = {
 //   title: "Shiv Mohan Band and Events | Premium Royal Baraats",
 //   description:
-//     "Making Royal Baraats Memorable Since 1980. Trusted by generations of families across India for unforgettable luxury wedding experiences.",
 // };
 
 // export default function RootLayout({ children }) {
@@ -89,10 +88,9 @@ export const metadata = {
   metadataBase: new URL("https://www.shivmohanbandagra.com"),
   title: {
     default: "Wedding Band in Agra | Shiv Mohan Band and Events",
-    template: "%s | Shiv Mohan Band and Events",
   },
   description:
-    "Looking for a wedding band in Agra? Shiv Mohan Band and Events provides wedding bands, brass bands, Punjabi & Nashik Dhol, DJ, shehnai and royal baraat services. Trusted since 1980. Book your date today.",
+    "Wedding band and baraat services in Agra, including brass band, Punjabi and Nashik Dhol, DJ on Wheels and shehnai. Contact Shiv Mohan Band & Events to check your date.",
   keywords: [
     "wedding band in Agra",
     "best wedding band in Agra",
@@ -126,10 +124,10 @@ export const metadata = {
     canonical: "https://www.shivmohanbandagra.com/",
   },
   openGraph: {
-    title: "Wedding Band in Agra | Shiv Mohan Band and Events",
+    title: "Wedding Band & Baraat Services in Agra | Shiv Mohan Band",
     description:
-      "Shiv Mohan Band and Events — Agra's most trusted wedding band providing brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai, vintage cars and royal baraat entertainment since 1980.",
-    url: "https://www.shivmohanbandagra.com",
+      "Explore wedding band, brass band, dhol, DJ, shehnai and baraat services in Agra from Shiv Mohan Band & Events.",
+    url: "https://www.shivmohanbandagra.com/",
     siteName: "Shiv Mohan Band and Events",
     images: [
       {
@@ -144,9 +142,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wedding Band in Agra | Shiv Mohan Band and Events",
+    title: "Wedding Band & Baraat Services in Agra | Shiv Mohan Band",
     description:
-      "Agra's most trusted wedding band — brass band, Punjabi Dhol, Nashik Dhol, DJ, shehnai & royal baraat services since 1980.",
+      "Wedding band, brass band, Dhol, DJ, shehnai and baraat services in Agra.",
     images: ["/images/og-image.png"],
   },
   robots: {

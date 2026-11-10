@@ -7,7 +7,7 @@ export const metadata = {
   alternates: { canonical: "https://www.shivmohanbandagra.com/wedding-band-agra-guide/" },
   openGraph: {
     title: "Complete Guide to Hiring a Wedding Band in Agra",
-    description: "Complete guide to wedding bands, baraat services, dhol, DJ and booking in Agra. Expert advice from Shiv Mohan Band and Events since 1980.",
+    description: "A guide to wedding bands, baraat services, Dhol, DJ and booking in Agra, with questions to help you compare options for your event.",
     url: "https://www.shivmohanbandagra.com/wedding-band-agra-guide/",
   },
 };
@@ -29,7 +29,7 @@ const articleSchema = {
   publisher: { "@type": "Organization", name: "Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.shivmohanbandagra.com/wedding-band-agra-guide/" },
   datePublished: "2026-09-01",
-  dateModified: new Date().toISOString().split("T")[0],
+  dateModified: "2026-11-11",
 };
 
 export default function WeddingBandGuide() {
@@ -58,7 +58,7 @@ export default function WeddingBandGuide() {
               <span className="text-gold italic">Wedding Band in Agra</span>
             </h1>
             <p className="font-sans text-ivory/70 font-light leading-relaxed">
-              Everything you need to know before booking a wedding band in Agra — band types, dhol options, pricing, booking timelines and how to choose the right package for your baraat. By Shiv Mohan Band and Events, Agra since 1980.
+              Review band types, Dhol options, pricing factors and booking timelines before choosing a package for your baraat in Agra.
             </p>
           </div>
         </section>
@@ -71,7 +71,7 @@ export default function WeddingBandGuide() {
               {/* Section 1 */}
               <section>
                 <h2 className="font-heading text-3xl text-ivory mb-4">What Does a Wedding Band in Agra Include?</h2>
-                <p className="mb-4">A wedding band for a baraat typically combines several elements to create a complete celebratory experience. When most people in Agra say "wedding band," they mean a live brass band — a group of musicians playing brass instruments (trumpets, trombones, tubas) and percussion that leads the baraat procession.</p>
+                <p className="mb-4">A wedding band for a baraat typically combines several elements to create a complete celebratory experience. When most people in Agra say &quot;wedding band,&quot; they mean a live brass band — a group of musicians playing brass instruments (trumpets, trombones, tubas) and percussion that leads the baraat procession.</p>
                 <p className="mb-4">A complete wedding band package from Shiv Mohan Band and Events in Agra can include:</p>
                 <ul className="space-y-2 mb-4">
                   {["Live brass band with 15–30 musicians", "Punjabi Dhol player(s) for high-energy beats", "Nashik Dhol group (4–12 players) for synchronized power", "Shehnai player for traditional, auspicious melodies", "DJ on wheels with professional sound system", "Decorative lighting and LED effects", "Floral chattar (flower umbrella)", "Ghori — decorated horse for the groom", "Baggi — horse-drawn carriage", "Vintage cars for the wedding entry"].map(item => (
@@ -108,7 +108,7 @@ export default function WeddingBandGuide() {
               {/* Section 3 */}
               <section>
                 <h2 className="font-heading text-3xl text-ivory mb-4">Punjabi Dhol vs Nashik Dhol — Which is Right for Your Baraat?</h2>
-                <p className="mb-4">Both Punjabi Dhol and Nashik Dhol are extremely popular for wedding baraats in Agra. Here's how they differ:</p>
+                <p className="mb-4">Both Punjabi Dhol and Nashik Dhol are extremely popular for wedding baraats in Agra. Here&apos;s how they differ:</p>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse text-sm mb-4">
                     <thead>
@@ -142,7 +142,7 @@ export default function WeddingBandGuide() {
               {/* Section 4 */}
               <section>
                 <h2 className="font-heading text-3xl text-ivory mb-4">How Early Should You Book a Wedding Band in Agra?</h2>
-                <p className="mb-4">This is extremely important. Wedding band availability in Agra — especially during peak season — is limited. Popular bands book up months in advance. Here's what we recommend:</p>
+                <p className="mb-4">This is extremely important. Wedding band availability in Agra — especially during peak season — is limited. Popular bands book up months in advance. Here&apos;s what we recommend:</p>
                 <div className="space-y-3 my-6">
                   {[
                     { timeline: "6+ months ahead", advice: "Ideal for peak season (November–February, May–June). Book as early as possible to secure your exact date." },
@@ -168,7 +168,7 @@ export default function WeddingBandGuide() {
                     { title: "2. Venue & Logistics", desc: "Consider the road width, distance from venue to mandap, and whether a horse/vintage car can navigate the route." },
                     { title: "3. Musical Preferences", desc: "Traditional families may prefer a brass band with shehnai, while families wanting high energy may want Nashik Dhol + DJ combination." },
                     { title: "4. Budget", desc: "Packages can be customized based on budget. Contact us to discuss what's possible within your range." },
-                    { title: "5. Experience & Reviews", desc: "Choose a band with proven experience, genuine reviews and a track record in Agra. Shiv Mohan Band has 250+ Google reviews and 4.9★ rating." },
+                    { title: "5. Experience & Reviews", desc: "Ask about relevant event experience and read recent public reviews. Look for specific feedback about the service, communication and event-day coordination you need." },
                   ].map((item) => (
                     <div key={item.title} className="p-5 bg-charcoal/20 border border-gold/10 rounded-sm">
                       <h3 className="font-sans text-ivory font-semibold mb-2">{item.title}</h3>
@@ -181,7 +181,7 @@ export default function WeddingBandGuide() {
               {/* About Shiv Mohan Band */}
               <section className="p-8 bg-charcoal/30 border border-gold/20 rounded-sm">
                 <h2 className="font-heading text-2xl text-ivory mb-4">About Shiv Mohan Band and Events</h2>
-                <p className="mb-4">Shiv Mohan Band and Events is a wedding band and baraat entertainment service based in Agra, Uttar Pradesh. We have been providing wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, shehnai, DJ services, live music, vintage cars and royal baraat arrangements in Agra since 1980.</p>
+                <p className="mb-4">Shiv Mohan Band and Events is a wedding band and baraat entertainment service based in Agra, Uttar Pradesh. The listed services include wedding bands, brass bands, Punjabi Dhol, Nashik Dhol, shehnai, DJ services, live music, vintage cars and baraat arrangements.</p>
                 <p className="mb-6">Located at Shop No. 1, Sikandra-Bodla Rd, near Gopal Seva Sadan, Bodla, Agra, UP 282007. Phone: +91 94575 00318.</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href="https://wa.me/919457500318?text=Hello!%20I%20read%20your%20wedding%20band%20guide%20and%20want%20to%20book%20for%20my%20wedding%20in%20Agra." target="_blank" rel="noopener noreferrer" id="guide-cta-whatsapp" className="inline-flex items-center gap-3 px-6 py-3 bg-gold text-charcoal font-subheading uppercase tracking-widest text-sm hover:bg-ivory transition-colors font-semibold">

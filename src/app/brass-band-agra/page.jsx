@@ -3,11 +3,11 @@ import ServicePageLayout from "@/components/service-page-layout";
 export const metadata = {
   title: "Brass Band in Agra | Shiv Mohan Band and Events",
   description:
-    "Professional brass band in Agra for wedding baraats and celebrations. Shiv Mohan Band and Events provides skilled brass band performers for royal baraat processions in Agra since 1980.",
+    "Brass band services in Agra for wedding baraats and celebrations. Contact Shiv Mohan Band and Events to discuss performers and availability for your date.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/brass-band-agra/" },
   openGraph: {
     title: "Brass Band in Agra | Shiv Mohan Band and Events",
-    description: "Professional brass band for wedding baraats in Agra. Shiv Mohan Band — trusted since 1980.",
+    description: "Ask Shiv Mohan Band about brass band arrangements for your wedding baraat in Agra.",
     url: "https://www.shivmohanbandagra.com/brass-band-agra/",
   },
 };
@@ -57,7 +57,7 @@ export default function BrassBandAgraPage() {
           { icon: "party", title: "Customizable Package", description: "Choose brass band only or combine with Punjabi Dhol, Nashik Dhol, DJ and other services for your complete baraat." },
         ]}
         whyChooseItems={[
-          { title: "45+ Years of Expertise", description: "Shiv Mohan Band has been leading wedding baraats in Agra since 1980 with professional brass band performances." },
+          { title: "Brass Band Performances", description: "Ask about the available musicians, performance duration and event-day arrangements." },
           { title: "Experienced Musicians", description: "Our brass band musicians are experienced, trained performers who understand the energy and flow of a baraat." },
           { title: "All Agra Areas Covered", description: "We serve every neighbourhood in Agra — from Bodla and Sikandra to Tajganj, Sadar Bazaar and Dayal Bagh." },
           { title: "Flexible Band Sizes", description: "From small intimate baraats to grand royal processions — we offer brass bands of various sizes." },

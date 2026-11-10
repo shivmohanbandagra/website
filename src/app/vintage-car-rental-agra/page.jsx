@@ -2,7 +2,7 @@ import ServicePageLayout from "@/components/service-page-layout";
 
 export const metadata = {
   title: "Vintage Car for Wedding in Agra | Shiv Mohan Band and Events",
-  description: "Luxury vintage car rental for weddings in Agra. Shiv Mohan Band and Events provides beautifully decorated vintage cars for grand wedding entries and baraat processions in Agra since 1980.",
+  description: "Vintage cars for wedding entries and baraat processions in Agra. Contact Shiv Mohan Band and Events to ask about vehicle options and availability.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/vintage-car-rental-agra/" },
   openGraph: { title: "Vintage Car for Wedding in Agra | Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com/vintage-car-rental-agra/" },
 };
@@ -42,7 +42,7 @@ export default function VintageCarRentalAgraPage() {
           { title: "Elegant Vintage Cars", description: "Carefully maintained vintage and classic cars that add timeless elegance to your wedding procession." },
           { title: "Beautifully Decorated", description: "Professionally decorated with fresh flowers and ornamental details to match your wedding theme." },
           { title: "Part of Complete Baraat Package", description: "Book vintage car as part of a complete baraat package with band, dhol, DJ, ghori and baggi." },
-          { title: "45+ Years of Experience", description: "Shiv Mohan Band has been providing vintage car services for weddings in Agra since 1980." },
+          { title: "Wedding Entry Arrangements", description: "Confirm the vehicle, decoration, route access and timing for your event." },
         ]}
         faqs={[
           { q: "Why use a vintage car for a wedding in Agra?", a: "A vintage car adds elegance, cinema-quality aesthetics and timeless charm to your wedding entry or baraat procession. It creates stunning photo and video opportunities and makes the groom's entry truly unforgettable." },

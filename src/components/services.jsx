@@ -153,7 +153,7 @@ const services = [
   {
     id: 1,
     title: "Wedding Band in Agra",
-    description: "Shiv Mohan Band — Agra's most trusted wedding band for royal baraat processions since 1980.",
+    description: "Wedding band services for baraat processions in Agra. Contact the team to discuss your event requirements.",
     image: "/images/services/band.jpeg",
     href: "/wedding-band-agra/",
   },
@@ -315,7 +315,6 @@ export default function ServicesSection() {
                   src={service.image}
                   alt={`${service.title} — Shiv Mohan Band Agra`}
                   fill
-                  priority={index === 0}
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100"
                 />

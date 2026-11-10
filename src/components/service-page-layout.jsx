@@ -175,21 +175,6 @@ export default function ServicePageLayout({
               Call Us
             </a>
           </div>
-          {/* Trust Badges */}
-          <div className="mt-8 flex flex-wrap justify-center gap-x-5 gap-y-2 font-sans text-xs text-ivory/65 sm:mt-10 sm:gap-x-6 sm:text-sm">
-            <span className="flex items-center gap-2">
-              <Star className="w-4 h-4 text-gold" fill="currentColor" />
-              4.9/5 Google Rating
-            </span>
-            <span className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-gold" aria-hidden="true" />
-              250+ Weddings Served
-            </span>
-            <span className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-gold" aria-hidden="true" />
-              Trusted Since 1980
-            </span>
-          </div>
         </div>
       </section>
 

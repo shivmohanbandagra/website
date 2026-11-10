@@ -2,7 +2,7 @@ import ServicePageLayout from "@/components/service-page-layout";
 
 export const metadata = {
   title: "Wedding Decoration in Agra | Shiv Mohan Band and Events",
-  description: "Complete wedding decoration services in Agra. Shiv Mohan Band and Events provides wedding decoration, haldi decoration, mehndi decoration, floral chattar and lighting for weddings across Agra since 1980.",
+  description: "Wedding, Haldi and Mehndi decoration options in Agra, including floral chattar and lighting. Contact Shiv Mohan Band and Events to discuss your event.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/wedding-decoration-agra/" },
   openGraph: { title: "Wedding Decoration in Agra | Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com/wedding-decoration-agra/" },
 };

@@ -2,7 +2,7 @@ import ServicePageLayout from "@/components/service-page-layout";
 
 export const metadata = {
   title: "Live Band in Agra | Wedding & Sangeet Night | Shiv Mohan Band",
-  description: "Live band in Agra for weddings, sangeet nights and special celebrations. Shiv Mohan Band and Events provides professional live band performances for wedding events across Agra since 1980.",
+  description: "Live band performances in Agra for weddings, sangeet nights and special celebrations. Contact Shiv Mohan Band and Events to ask about availability.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/live-band-agra/" },
   openGraph: { title: "Live Band in Agra | Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com/live-band-agra/" },
 };

@@ -2,7 +2,7 @@ import ServicePageLayout from "@/components/service-page-layout";
 
 export const metadata = {
   title: "Ghori & Baggi in Agra | Groom's Entry | Shiv Mohan Band",
-  description: "Royal Ghori (decorated horse) and Baggi (horse carriage) for groom's grand wedding entry in Agra. Shiv Mohan Band and Events provides beautifully decorated Ghori and Baggi for wedding baraats in Agra since 1980.",
+  description: "Ask about Ghori and Baggi arrangements for a groom's wedding entry in Agra, including availability and event-day logistics.",
   alternates: { canonical: "https://www.shivmohanbandagra.com/ghori-baggi-agra/" },
   openGraph: { title: "Ghori & Baggi in Agra | Shiv Mohan Band and Events", url: "https://www.shivmohanbandagra.com/ghori-baggi-agra/" },
 };
@@ -52,7 +52,7 @@ export default function GhoriBaggiAgraPage() {
           { title: "Traditional & Authentic", description: "Our Ghori and Baggi maintain the authentic traditional aesthetic that makes Indian wedding baraats so special." },
           { title: "Beautiful Decorations", description: "Professionally decorated with fresh flowers, ornate cloth and traditional embellishments matching your wedding theme." },
           { title: "Part of Complete Baraat Package", description: "Book Ghori and Baggi as part of a complete baraat package with band, dhol, DJ and all other services." },
-          { title: "45+ Years of Experience", description: "Shiv Mohan Band has been providing Ghori and Baggi for wedding baraats in Agra since 1980." },
+          { title: "Ghori & Baggi Arrangements", description: "Confirm the available arrangement, route access, timing and any venue requirements." },
         ]}
         faqs={[
           { q: "What is Ghori for a wedding baraat?", a: "Ghori is a beautifully decorated horse on which the groom rides during the baraat procession — a traditional Indian wedding custom symbolizing the groom's royal status. The horse is adorned with ornate decorations, flowers and embroidered cloth." },
